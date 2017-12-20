@@ -1,0 +1,811 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/11/2017, 10:01:38 AM
+    Author     : Juan Ma
+*/
+
+/*@font-face {
+    font-family: 'myriadroman';
+    src: url('fonts/MyriadRoman.eot');
+    src: url('fonts/MyriadRoman.eot?#iefix') format('embedded-opentype'), 
+        url('fonts/MyriadRoman.woff2') format('woff2'), 
+        url('fonts/MyriadRoman.woff') format('woff'), 
+        url('fonts/MyriadRoman.otf') format("opentype"),
+        url('fonts/MyriadRoman.ttf') format('truetype'),
+        url('fonts/MyriadRoman.svg#Myriad-Roman') format('svg');
+} */
+
+body {
+    padding-top: 70px;
+}
+
+#map {
+    height: 495px;
+    width: 100%;
+}
+
+.submenu{
+    margin: 10px;
+}
+
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+.navbar-nav > li > .dropdown-menu {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: 0;
+    background: #e2e2e2;
+}
+.navbar-right .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+.open > .dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    background-color: #fff;
+}
+.dropdown-menu {
+    left: 0 !important;
+    right: auto !important;
+}
+.dropdown-menu {
+    background-clip: padding-box;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+    display: none;
+    float: left;
+    font-size: 14px;
+    left: 0;
+    list-style: outside none none;
+    margin: 2px 0 0;
+    min-width: 420px;
+    padding: 5px 0;
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    z-index: 1000;
+}
+
+#conectamos{
+    color: #fff; 
+    font-size: 30px;
+    margin-top: 130px; 
+    text-align: center
+}
+
+.gray {
+    background-color: #f5f5f5;
+    height: 55px;
+}
+
+.valoragregado{
+    margin-top: 55px
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'myriadroman';
+    src: url('fonts/MyriadPro-Regular.otf');
+}
+
+@font-face {
+    font-family: 'MyriadPro-Bold';
+    src: url('fonts/MyriadPro-Bold.otf');
+} 
+
+.dropdown-menu {
+    left: 0 !important;
+    right: auto !important;
+}
+.dropdown-menu {
+    background-color: #fff;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #fff;
+    color: #e22f22;
+}
+.navbar {
+    padding: 20px 0;
+}
+
+.fch-cambio {
+    position: fixed; 
+    top: 90px; 
+    right: 0; 
+    left: 0; 
+    z-index: 1010;
+}
+.mundi{
+    background-image: url("/Sintad/assets/img/mundi.jpg");
+    height: 328px;
+    font-family: "MyriadPro-Bold";
+    background-size: cover;
+}
+
+.sintad_puerta{
+    background-image: url("/Sintad/assets/img/sintad_puerta.jpg");
+    height: 517px;
+    font-family: "MyriadPro-Bold";
+    background-size: cover;
+}
+
+body:not(.glyphicon) {
+    font-family: "myriadroman";
+    font-size: 14px; 
+    color: #5f5f5f;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.white {
+    background-color: #fff;
+    height: 25px;
+    width: 100%;
+}
+
+.whitenoticia {
+    background-color: #fff;
+    height: 700px;
+    width: 100%;
+}
+
+.red {
+    background-color: #e22f22;
+    height: 26px;
+    width: 100%;
+}
+.footer{
+    background-color: #211f20;
+    height: 315px;
+    width: 100%;
+}
+.orange{
+    background-color: #e5691f;
+    height: 20px;
+}
+
+.blue{
+    background-color: #0177b4;
+    height: 20px;
+}
+.green{
+    background-color: #79b93d;
+    height: 20px;
+}
+
+.whiteblue{
+    background-color: #00a6d2;
+    height: 20px;
+}
+
+.purple{
+    background-color: #af2970;
+    height: 20px;
+}
+
+.darkgreen{
+    background-color: #4f8f45;
+    height: 20px;
+}
+
+.red2 {
+    background-color: #e22f22;
+    height: 13px;
+    width: 75%;
+}
+
+.red3 {
+    background-color: #e22f22;
+    height: 13px;
+    width: 100%;
+}
+
+.services{
+    background: #fff; height: 197px
+}
+
+#servicios{
+    font-weight: bold;
+    font-family: MyriadPro-Bold
+}
+
+#sce {
+    font-size: 45px
+}
+
+#scesistema{
+    vertical-align: 10px;
+}
+
+#noticia1{
+    background-image: url(/Sintad/assets/img/noticia1.jpg); 
+}
+
+#noticia2{
+    background-image: url(/Sintad/assets/img/noticia2.jpg); 
+}
+
+#noticia3{
+    background-image: url(/Sintad/assets/img/noticia3.jpg); 
+}
+
+.flotate {
+    float: left;
+}
+
+.navbar-inverse {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.logo_content{
+    margin-top: -25px
+}
+
+.fecha{
+    color: white;
+    margin-top: 3px;
+}
+
+.cambio{
+    color: white;
+    margin-top: 3px;
+    float: right;
+}
+
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #e22f22;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #5f5f5f;
+}
+
+.navbar-right {
+    float: right !important;
+    margin-right: -45px;
+}
+
+.btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+
+// Carrusel //
+
+.fade-carousel {
+    position: relative;
+    height: 49vh;
+}
+.fade-carousel .carousel-inner .item {
+    height: 49vh;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: #f39c12;
+    border-color: #f39c12;
+    opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+    -moz-transform: translate3d(-50%,-50%,0);
+    -ms-transform: translate3d(-50%,-50%,0);
+    -o-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+}
+.hero h1 {
+    font-size: 6em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+    -moz-transition: 2s all ease-in-out .1s; 
+    -ms-transition: 2s all ease-in-out .1s; 
+    -o-transition: 2s all ease-in-out .1s; 
+    transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+    -moz-transition: 2s all ease-in-out .1s; 
+    -ms-transition: 2s all ease-in-out .1s; 
+    -o-transition: 2s all ease-in-out .1s; 
+    transition: 2s all ease-in-out .1s;    
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .7;
+}
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+.btn.btn-lg {padding: 10px 40px;}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #f5f5f5;
+    background-color: #e22f22;
+    border-color: #e22f22;
+    outline: none;
+    margin: 20px auto;
+    width: 178px; height: 38px
+}
+
+.btn.btn-hero.white, .btn.btn-hero:hover, .btn.btn-hero:focus {
+    background-color: #fff;
+    border-color: #fff;
+    color: #5f5f5f;
+    margin: 20px auto;
+    outline: medium none;
+    width: 178px; height: 38px
+}
+
+.redVermas:hover{
+    background-color: #fff;
+    border-color: #e22f22;
+    color: #e22f22;
+    height: 38px;
+    margin: 20px auto;
+    outline: medium none;
+    width: 178px;
+}
+
+.btn.btn-hero.mundi, .btn.btn-hero:hover, .btn.btn-hero:focus {
+    background-color: #e22f22;
+    border-color: #fff;
+    color: #f5f5f5;
+    height: 38px;
+    margin: 20px auto;
+    outline: medium none;
+    width: 178px;
+}
+
+
+.btn.btn-hero.noticias{
+    background-color: #fff;
+    border-color: #e22f22;
+    color: #e22f22;
+    height: 38px;
+    margin: 20px auto;
+    outline: medium none;
+    width: 178px;
+}
+
+.btn.btn-hero.noticias:hover, .btn.btn-hero.noticias:focus {
+    background-color: #e22f22;
+    border-color: #fff;
+    color: #fff;
+    height: 38px;
+    margin: 20px auto;
+    outline: medium none;
+    width: 178px;
+}
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+    height: 475px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+    background-image: url(/Sintad/assets/img/banner/banner1.jpg); 
+}
+
+.fade-carousel-carga .slides-carga .slide-1-carga, 
+.fade-carousel-carga .slides-carga .slide-2-carga,
+.fade-carousel-carga .slides-carga .slide-3-carga {
+    height: 475px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.fade-carousel-carga .slides-carga .slide-1-carga {
+    background-image: url(/Sintad/assets/img/banner/carga.jpg); 
+}
+
+
+.fade-carousel-doctel .slides-doctel .slide-1-doctel, 
+.fade-carousel-doctel .slides-doctel .slide-2-doctel,
+.fade-carousel-doctel .slides-doctel .slide-3-doctel {
+    height: 475px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.fade-carousel-doctel .slides-doctel .slide-1-doctel {
+    background-image: url(/Sintad/assets/img/banner/doctel.jpg); 
+}
+
+
+/****************** NOSOTROS **********************/
+
+.nostros{
+    background: #afafaf; 
+    height: 475px
+}
+
+#nosotrosdiv{
+    margin-top: 50px
+}
+
+#nosotrosfoto{
+    /*    background-image: url(/Sintad/assets/img/iStock_000019232533Large.jpg);
+        height: 361px;*/
+}
+
+#nosotrostexto{
+    color: #fff;
+    text-align: justify;
+}
+
+.vision{
+    background: #fff; 
+    height: 504px
+}
+
+#visionImg{
+    background-image: url(/Sintad/assets/img/vision.jpg);
+    height: 100%;
+    background-size: cover;
+}
+
+#misionImg{
+    background-image: url(/Sintad/assets/img/mision.jpg);
+    height: 100%;
+    background-size: cover;
+}
+
+#topVisionMision{
+    margin-top: 100px
+}
+
+.imgvalor{
+    height: 128px;
+    width: 128px;
+}
+
+.valor{
+    text-align: center;
+}
+
+
+/*************************************/
+
+/*******Contacto Directo ******////
+
+.contacto {
+    height: 570px;
+    background: #fff;
+}
+
+.cargaboton{
+    background-color: #f8f8f8;
+    border-color: #e5691f;
+    color: #e5691f;
+    /*height: 38px;*/
+    margin: 20px auto;
+    outline: medium none;
+    /*width: 200px;*/
+    outline: medium none;
+}
+
+.aduanaboton{
+    background-color: #f8f8f8;
+    border-color: #0177b4;
+    color: #0177b4;
+    /*height: 38px;*/
+    margin: 20px auto;
+    outline: medium none;
+    /*width: 200px;*/
+    outline: medium none;
+}
+
+.transporteboton{
+    background-color: #f8f8f8;
+    border-color: #79b93d;
+    color: #79b93d;
+    /*height: 38px;*/
+    margin: 20px auto;
+    outline: medium none;
+    /*width: 200px;*/
+    outline: medium none;
+}
+
+.almacenboton{
+    background-color: #f8f8f8;
+    border-color: #00a6d2;
+    color: #00a6d2;
+    /*height: 38px;*/
+    margin: 20px auto;
+    outline: medium none;
+    /*width: 200px;*/
+    outline: medium none;
+}
+
+.overlay_wrapper {
+    color: #fff;
+    float: left;
+    font-family: "fuente3",arial;
+    font-size: 11px;
+    /*height: 265px;*/
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    /*width: 277px;*/
+}
+
+
+.overlay_fade {
+    float: left;
+    /*height: 215px;*/
+    /*margin-bottom: 6px;*/
+    overflow: hidden;
+    position: relative;
+    /*width: 277px;*/
+}
+
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+    .hero { width: 100%; }
+}
+@media screen and (max-width: 640px){
+    .hero h1 { font-size: 4em; }    
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1400px;
+    }
+    #visionImg{
+        display: block;
+    }
+}
+
+@media (max-width: 1399px) {
+    .container {
+        width: 1200px;
+    }
+    .logo_content {
+        margin-top: -30px;
+        margin-left: 380px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 100%;
+        font-size: 11px; 
+    }
+    .logo_content {
+        margin-top: -30px;
+        margin-left: 330px;
+    }
+    .fecha {
+        color: white;
+        margin-top: 6px;
+    }
+    h4, .h4 {
+        font-size: 15px;
+    }
+
+    #visionImg{
+        display: block;
+    }
+}
+
+@media (max-width: 900px) {
+    .logo_content {
+        margin-top: -30px;
+        margin-left: 280px;
+    }
+    .gray {
+        background-color: #f5f5f5;
+        height: 15px;
+    }
+    #texto{
+        font-size: 15px;
+    }
+    .cambio{
+        display: none;
+    }
+    h4, .h4 {
+        font-size: 15px;
+    }
+    #nosotrosdiv {
+        margin-top: 30px;
+    }
+
+    #visionImg{
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo_content {
+        margin-top: -33px;
+        margin-left: 0px;
+    }
+
+    #texto{
+        font-size: 15px;
+    }
+    .gray {
+        background-color: #f5f5f5;
+        height: 15px;
+    }
+
+    #conectamos{
+        color: #fff; 
+        font-size: 30px;
+        margin-top: 80px; 
+        text-align: center
+    }
+
+    .valoragregado{
+        margin-top: 45px
+    }
+
+    #servicios {
+        font-family: MyriadPro-Bold;
+        font-weight: bold;
+        margin-top: 35px;
+        text-align: center;
+    }
+
+    .navbar-inverse .navbar-toggle {
+        background: #e22f22 none repeat scroll 0 0;
+        border-color: #fff;
+    }
+
+    .navbar-right {
+        float: left !important;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #e22f22;
+        background-color: transparent;
+    }
+
+    .navbar-inverse .navbar-toggle:hover,
+    .navbar-inverse .navbar-toggle:focus {
+        background-color: #211f20;
+    }
+
+    .responsivewhithe {
+        background-color: #fff;
+        height: 1080px;
+        width: 100%;
+    }
+
+    .footer{
+        background-color: #211f20;
+        height: 615px;
+        width: 100%;
+    }
+    .cambio{
+        display: none;
+    }
+
+    #visionImg{
+        display: none;
+    }
+
+    #misionImg{
+        display: none;
+    }
+
+    #topVisionMision{
+        margin-top: 25px
+    }
+
+    .vision{
+        height: 250px;
+    }
+
+    .valores{
+        height: 140%;
+    }
+    #mapa{
+        display: none
+    }
+}
+
+@media (max-width: 400px) {
+    h4, .h4 {
+        font-size: 12px;
+    }
+
+    #nosotrosdiv {
+        margin-top: 20px;
+    }
+
+    #visionImg{
+        display: none;
+    }
+
+    #misionImg{
+        display: none;
+    }
+
+    .valores{
+        height: 160%;
+    }
+
+}
