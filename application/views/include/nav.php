@@ -19,7 +19,7 @@
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul id="options" class="nav navbar-nav pull-right"> 
                                     <li class="dropdown">
-                                        <a href="productos.php" data-toggle="dropdown">PRODUCTOS<b class="caret"> </b></a>
+                                        <a href="productos.php" >PRODUCTOS<b class="caret"> </b></a>
                                         <ul class="dropdown-menu">
                                             <div class="col-sm-5">
                                                 <li class="submenu">
@@ -45,7 +45,7 @@
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#" data-toggle="dropdown">CONSULTAS EN LINEA <b class="caret"> </b></a>
+                                        <a href="#" >CONSULTAS EN LINEA <b class="caret"> </b></a>
                                         <ul class="dropdown-menu">
                                             <li>
                                                 <a target="_blank" href="#">Consulta 1</a>
@@ -79,7 +79,7 @@
                                         <a href="#">|</a>
                                     </li> 
                                     <li class="dropdown">
-                                        <a href="#" data-toggle="dropdown">ES<b class="caret"> </b></a>
+                                        <a href="#" >ES<b class="caret"> </b></a>
                                         <ul class="dropdown-menu">
                                             <li>
                                                 <a href="#">EN</a>
