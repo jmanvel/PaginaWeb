@@ -32,7 +32,7 @@
         <div class="col-sm-10" style="background: #e7e7e7; height: 175px">
             <div class="col-sm-4">
                 <div class="col-sm-2"></div>
-                <div class="col-sm-10 services" style="margin: -25px 0;">
+                <div class="col-sm-10 services cursor animated" animate="pulse" style="margin: -25px 0;" onclick="productos('sce_carga')">
                     <div class="row" style="margin: 67px 0">
                         <div class="col-sm-2"></div>
                         <div class="col-sm-10" id="servicios">
@@ -60,7 +60,7 @@
         <div class="col-sm-10" style="background: #e7e7e7; height: 175px">
             <div class="col-sm-4">
                 <div class="col-sm-2"></div>
-                <div class="col-sm-10 services" style="margin: -25px 0;">
+                <div class="col-sm-10 services cursor animated" animate="pulse" style="margin: -25px 0;" onclick="productos('sce_aduanas')">
                     <div class="row" style="margin: 67px 0">
                         <div class="col-sm-2"></div>
                         <div class="col-sm-10" id="servicios">
@@ -88,7 +88,7 @@
         <div class="col-sm-10" style="background: #e7e7e7; height: 175px">
             <div class="col-sm-4">
                 <div class="col-sm-2"></div>
-                <div class="col-sm-10 services" style="margin: -25px 0;">
+                <div class="col-sm-10 services cursor animated" animate="pulse" style="margin: -25px 0;" onclick="productos('sce_transporte')">
                     <div class="row" style="margin: 67px 0">
                         <div class="col-sm-2"></div>
                         <div class="col-sm-10" id="servicios">
@@ -116,7 +116,7 @@
         <div class="col-sm-10" style="background: #e7e7e7; height: 175px">
             <div class="col-sm-4">
                 <div class="col-sm-2"></div>
-                <div class="col-sm-10 services" style="margin: -25px 0;">
+                <div class="col-sm-10 services cursor animated" animate="pulse" style="margin: -25px 0;" onclick="productos('sce_almacen')">
                     <div class="row" style="margin: 67px 0">
                         <div class="col-sm-2"></div>
                         <div class="col-sm-10" id="servicios">
@@ -147,7 +147,34 @@
                 <div class="col-sm-10 services" style="margin: -22px 0;">
                     <div class="row" style="margin: 63px 0">
                         <div class="col-sm-2"></div>
-                        <div class="col-sm-10" id="servicios">
+                        <div class="col-sm-10 cursor animated" animate="pulse" id="servicios" onclick="productos('sce_doctel')">
+                            <span id="scesistema" style="font-size: 20px">DOCTEL</span> <br>
+                            <p style="font-family: myriadroman; font-weight: inherit; font-style: italic">Documento de transmisi&oacute;n electr&oacute;nica</p>
+                        </div>
+                    </div>
+                    <div class="row purple" style="margin-top: -15px">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5" style="margin-top: 40px">
+                <p style="text-align: justify">Especializado y diseñado exclusivamente para cubrir las necesidades integrales de la operatividad de los Almacenes y/o Dep&oacute;sitos Aduaneros .</p>
+            </div>
+            <div class="col-sm-3" style="text-align: left; margin-top: 50px">
+                <button class="btn btn-hero btn-lg redVermas" role="button">Ver más</button>
+            </div>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+    <div style="height: 100px"></div>
+    <div class="container" style="height: 165px; margin-top: 50px">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10" style="background: #e7e7e7; height: 175px">
+            <div class="col-sm-4">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-10 services" style="margin: -22px 0;">
+                    <div class="row" style="margin: 63px 0">
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-10 cursor animated" animate="pulse" id="servicios" onclick="productos('productos_de_valor_agregado')">
                             <span id="scesistema" style="font-size: 20px">PRODUCTOS DE VALOR AGREGADO</span> 
                         </div>
                     </div>
@@ -174,10 +201,10 @@
                     <div class="col-sm-1"></div>
                     <div class="col-sm-10">
                         <div class="flotate fecha">
-                            <h3>Descubre los beneficios que <strong>Doctel</strong></h3><h3>tiene para t&iacute;</h3>
+                            <h3>¿No encuentras lo que buscas?<br> Comun&iacute;cate con nosotros.</h3>
                         </div>
                         <div class="cambio" style="margin-top: 20px">
-                            <button class="btn btn-hero mundi btn-lg" role="button">Ver más</button>
+                            <button class="btn btn-hero mundi btn-lg" role="button">Contáctenos</button>
                         </div>
                     </div>
                     <div class="clear"></div>
