@@ -14,37 +14,37 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="/Sintad/index.php"><div class="logo_content"><img src="/Sintad/assets/img/logo/logo.jpg" alt="logo"/></div></a>
+                                <a class="navbar-brand" href="<?php echo base_url(); ?>"><div class="logo_content">
+                                        <img src="<?php echo base_url(); ?>assets/img/logo/logo.jpg" alt="logo"/>
+                                    </div>
+                                </a>
                             </div>
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul id="options" class="nav navbar-nav pull-right"> 
-                                    <li class="dropdown">
-                                        <a href="productos" >PRODUCTOS<b class="caret"> </b></a>
-                                        <ul class="dropdown-menu">
-                                            <div class="row">
-                                                <div class="col-sm-5">
-                                                    <li class="submenu">
-                                                        <a href="/Sintad/productos/carga.php">SCE - CARGA</a>
-                                                    </li>
-                                                    <li class="submenu">
-                                                        <a href="/Sintad/productos/aduana.php">SCE - ADUANAS</a>
-                                                    </li>
-                                                    <li class="submenu">
-                                                        <a href="/Sintad/productos/transporte.php">SCE - TRANSPORTE</a>
-                                                    </li>
-                                                </div>
-                                                <div class="col-sm-7">
-                                                    <li class="submenu">
-                                                        <a href="/Sintad/productos/almacen.php">SCE - ALMACEN</a>
-                                                    </li>
-                                                    <li class="submenu">
-                                                        <a href="/Sintad/productos/doctel.php">DOCTEL</a>
-                                                    </li>
-                                                    <li class="submenu">
-                                                        <a href="/Sintad/productos/valor_agregado.php">PRODUCTOS DE VALOR AGREGADO</a>
-                                                    </li>
-                                                </div>
-                                            </div> 
+                                    <li class="dropdown"> 
+                                        <a href="<?php echo base_url(); ?>productos">PRODUCTOS<b class="caret"> </b></a> 
+                                        <ul class="dropdown-menu">  
+                                            <div class="col-sm-5">
+                                                <li class="submenu">
+                                                    <a href="<?php echo base_url(); ?>productos/sce_carga">SCE - CARGA</a>
+                                                </li>
+                                                <li class="submenu">
+                                                    <a href="<?php echo base_url(); ?>productos/sce_aduanas">SCE - ADUANAS</a>
+                                                </li>
+                                                <li class="submenu">
+                                                    <a href="<?php echo base_url(); ?>productos/sce_transporte">SCE - TRANSPORTE</a>
+                                                </li></div>
+                                            <div class="col-sm-7">
+                                                <li class="submenu">
+                                                    <a href="<?php echo base_url(); ?>productos/sce_almacen">SCE - ALMACEN</a>
+                                                </li>
+                                                <li class="submenu">
+                                                    <a href="<?php echo base_url(); ?>productos/sce_doctel">DOCTEL</a>
+                                                </li>
+                                                <li class="submenu">
+                                                    <a href="<?php echo base_url(); ?>productos/productos_de_valor_agregado">PRODUCTOS DE VALOR AGREGADO</a>
+                                                </li>
+                                            </div>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
@@ -92,13 +92,13 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="/Sintad/nosotros.php">NOSOTROS</a>
+                                        <a href="<?php echo base_url(); ?>Nosotros">NOSOTROS</a>
                                     </li>
                                     <li>
                                         <a href="#">NOTICIAS</a>
                                     </li>
                                     <li >
-                                        <a href="/Sintad/contacto.php">CONTACTO</a>
+                                        <a href="<?php echo base_url(); ?>contacto">CONTACTO</a>
                                     </li> 
                                     <li class="dropdown hidden-xs separator">
                                         <a href="#">|</a>
