@@ -3,7 +3,7 @@
         <div class="col-sm-1"></div>
         <div class="col-sm-10">
             <div class="col-sm-5">
-                <img src="/Sintad/assets/img/logo/logogris.png" alt="logo" style="margin-top: 50px;"/>
+                <img src="/PaginaWeb/assets/img/logo/logogris.png" alt="logo" style="margin-top: 50px;"/>
                 <p style="color: #797979">Todos los derechos reservados &copy; <?php echo @date('Y'); ?>, Per&uacute;</p>
             </div>
             <div class="col-sm-2">
@@ -21,10 +21,10 @@
                 <p style="color: #797979">Pasaje Parque San Carlos 271 - 275<br>Entre la cuadra 14 y 15 de la Av. Bolivar, Pueblo Libre</p>
                 <p style="color: #797979">Central telef.: (511) 7443-4040</p>
                 <p style="color: #797979">Email: contacto@sintad.net</p>
-                <img src="/Sintad/assets/img/fb.png" alt="fb" style="margin-top: 40px; cursor: pointer"/>
-                <img src="/Sintad/assets/img/yb2.png" alt="fb" style="margin-top: 40px;margin-left:20px; cursor: pointer"/>
+                <img src="/PaginaWeb/assets/img/fb.png" alt="fb" style="margin-top: 40px; cursor: pointer"/>
+                <img src="/PaginaWeb/assets/img/yb2.png" alt="fb" style="margin-top: 40px;margin-left:20px; cursor: pointer"/>
             </div>
         </div>   
     </div>
 </div>
-<script src="/Sintad/assets/js/script/js.js"></script>
+<script src="/PaginaWeb/assets/js/script/js.js"></script>

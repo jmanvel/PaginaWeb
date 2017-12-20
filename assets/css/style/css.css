@@ -132,14 +132,14 @@ body {
     z-index: 1010;
 }
 .mundi{
-    background-image: url("/Sintad/assets/img/mundi.jpg");
+    background-image: url("/PaginaWeb/assets/img/mundi.jpg");
     height: 328px;
     font-family: "MyriadPro-Bold";
     background-size: cover;
 }
 
 .sintad_puerta{
-    background-image: url("/Sintad/assets/img/sintad_puerta.jpg");
+    background-image: url("/PaginaWeb/assets/img/sintad_puerta.jpg");
     height: 517px;
     font-family: "MyriadPro-Bold";
     background-size: cover;
@@ -237,15 +237,15 @@ body:not(.glyphicon) {
 }
 
 #noticia1{
-    background-image: url(/Sintad/assets/img/noticia1.jpg); 
+    background-image: url(/PaginaWeb/assets/img/noticia1.jpg); 
 }
 
 #noticia2{
-    background-image: url(/Sintad/assets/img/noticia2.jpg); 
+    background-image: url(/PaginaWeb/assets/img/noticia2.jpg); 
 }
 
 #noticia3{
-    background-image: url(/Sintad/assets/img/noticia3.jpg); 
+    background-image: url(/PaginaWeb/assets/img/noticia3.jpg); 
 }
 
 .flotate {
@@ -457,7 +457,7 @@ body:not(.glyphicon) {
     background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-    background-image: url(/Sintad/assets/img/banner/banner1.jpg); 
+    background-image: url(/PaginaWeb/assets/img/banner/banner1.jpg); 
 }
 
 .fade-carousel-carga .slides-carga .slide-1-carga, 
@@ -470,7 +470,7 @@ body:not(.glyphicon) {
 }
 
 .fade-carousel-carga .slides-carga .slide-1-carga {
-    background-image: url(/Sintad/assets/img/banner/carga.jpg); 
+    background-image: url(/PaginaWeb/assets/img/banner/carga.jpg); 
 }
 
 
@@ -484,7 +484,7 @@ body:not(.glyphicon) {
 }
 
 .fade-carousel-doctel .slides-doctel .slide-1-doctel {
-    background-image: url(/Sintad/assets/img/banner/doctel.jpg); 
+    background-image: url(/PaginaWeb/assets/img/banner/doctel.jpg); 
 }
 
 
@@ -500,7 +500,7 @@ body:not(.glyphicon) {
 }
 
 #nosotrosfoto{
-    /*    background-image: url(/Sintad/assets/img/iStock_000019232533Large.jpg);
+    /*    background-image: url(/PaginaWeb/assets/img/iStock_000019232533Large.jpg);
         height: 361px;*/
 }
 
@@ -515,13 +515,13 @@ body:not(.glyphicon) {
 }
 
 #visionImg{
-    background-image: url(/Sintad/assets/img/vision.jpg);
+    background-image: url(/PaginaWeb/assets/img/vision.jpg);
     height: 100%;
     background-size: cover;
 }
 
 #misionImg{
-    background-image: url(/Sintad/assets/img/mision.jpg);
+    background-image: url(/PaginaWeb/assets/img/mision.jpg);
     height: 100%;
     background-size: cover;
 }

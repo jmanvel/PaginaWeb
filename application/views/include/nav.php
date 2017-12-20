@@ -14,7 +14,7 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="/Sintad/index.php"><div class="logo_content"><img src="/Sintad/assets/img/logo/logo.jpg" alt="logo"/></div></a>
+                                <a class="navbar-brand" href="/PaginaWeb/index.php"><div class="logo_content"><img src="/PaginaWeb/assets/img/logo/logo.jpg" alt="logo"/></div></a>
                             </div>
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul id="options" class="nav navbar-nav pull-right"> 
@@ -23,23 +23,23 @@
                                         <ul class="dropdown-menu">
                                             <div class="col-sm-5">
                                                 <li class="submenu">
-                                                    <a href="/Sintad/productos/carga.php">SCE - CARGA</a>
+                                                    <a href="/PaginaWeb/productos/carga.php">SCE - CARGA</a>
                                                 </li>
                                                 <li class="submenu">
-                                                    <a href="/Sintad/productos/aduana.php">SCE - ADUANAS</a>
+                                                    <a href="/PaginaWeb/productos/aduana.php">SCE - ADUANAS</a>
                                                 </li>
                                                 <li class="submenu">
-                                                    <a href="/Sintad/productos/transporte.php">SCE - TRANSPORTE</a>
+                                                    <a href="/PaginaWeb/productos/transporte.php">SCE - TRANSPORTE</a>
                                                 </li></div>
                                             <div class="col-sm-7">
                                                 <li class="submenu">
-                                                    <a href="/Sintad/productos/almacen.php">SCE - ALMACEN</a>
+                                                    <a href="/PaginaWeb/productos/almacen.php">SCE - ALMACEN</a>
                                                 </li>
                                                 <li class="submenu">
-                                                    <a href="/Sintad/productos/doctel.php">DOCTEL</a>
+                                                    <a href="/PaginaWeb/productos/doctel.php">DOCTEL</a>
                                                 </li>
                                                 <li class="submenu">
-                                                    <a href="/Sintad/productos/valor_agregado.php">PRODUCTOS DE VALOR AGREGADO</a>
+                                                    <a href="/PaginaWeb/productos/valor_agregado.php">PRODUCTOS DE VALOR AGREGADO</a>
                                                 </li>
                                             </div>
                                         </ul>
@@ -67,13 +67,13 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="/Sintad/nosotros.php">NOSOTROS</a>
+                                        <a href="/PaginaWeb/Nosotros">NOSOTROS</a>
                                     </li>
                                     <li>
                                         <a href="#">NOTICIAS</a>
                                     </li>
                                     <li >
-                                        <a href="/Sintad/contacto.php">CONTACTO</a>
+                                        <a href="/PaginaWeb/contacto.php">CONTACTO</a>
                                     </li> 
                                     <li class="dropdown hidden-xs separator">
                                         <a href="#">|</a>
