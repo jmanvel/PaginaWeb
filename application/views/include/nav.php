@@ -14,76 +14,99 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="<?php echo base_url();?>"><div class="logo_content">
-                                        <img src="<?php echo base_url();?>assets/img/logo/logo.jpg" alt="logo"/>
+                                <a class="navbar-brand" href="<?php echo base_url(); ?>"><div class="logo_content">
+                                        <img src="<?php echo base_url(); ?>assets/img/logo/logo.jpg" alt="logo"/>
                                     </div>
                                 </a>
                             </div>
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul id="options" class="nav navbar-nav pull-right"> 
-                                    <li class="dropdown">
-                                        <a href="<?php echo base_url();?>productos">PRODUCTOS<b class="caret"> </b></a>
-                                        <ul class="dropdown-menu">
-                                            <div class="col-sm-5">
-                                                <li class="submenu">
-                                                    <a href="<?php echo base_url();?>productos/sce_carga">SCE - CARGA</a>
-                                                </li>
-                                                <li class="submenu">
-                                                    <a href="<?php echo base_url();?>productos/sce_aduanas">SCE - ADUANAS</a>
-                                                </li>
-                                                <li class="submenu">
-                                                    <a href="<?php echo base_url();?>productos/sce_transporte">SCE - TRANSPORTE</a>
-                                                </li>
-                                            </div>
-                                            <div class="col-sm-7">
-                                                <li class="submenu">
-                                                    <a href="<?php echo base_url();?>productos/sce_almacen">SCE - ALMACEN</a>
-                                                </li>
-                                                <li class="submenu">
-                                                    <a href="<?php echo base_url();?>productos/sce_doctel">DOCTEL</a>
-                                                </li>
-                                                <li class="submenu">
-                                                    <a href="<?php echo base_url();?>productos/productos_de_valor_agregado">PRODUCTOS DE VALOR AGREGADO</a>
-                                                </li>
-                                            </div>
+                                    <li class="dropdown"> 
+                                        <a href="<?php echo base_url(); ?>productos">PRODUCTOS<b class="caret"> </b></a> 
+                                        <ul class="dropdown-menu">  
+                                            <div class="row">
+                                                <div class="col-sm-5">
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>productos/sce_carga">SCE - CARGA</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>productos/sce_aduanas">SCE - ADUANAS</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>productos/sce_transporte">SCE - TRANSPORTE</a>
+                                                    </li></div>
+                                                <div class="col-sm-7">
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>productos/sce_almacen">SCE - ALMACEN</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>productos/sce_doctel">DOCTEL</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>productos/productos_de_valor_agregado">PRODUCTOS DE VALOR AGREGADO</a>
+                                                    </li>
+                                                </div>
+                                            </div> 
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#" data-toggle="dropdown">CONSULTAS EN LINEA <b class="caret"> </b></a>
+                                        <a href="#" >CONSULTAS EN LINEA <b class="caret"> </b></a>
                                         <ul class="dropdown-menu">
-                                            <li>
-                                                <a target="_blank" href="#">Consulta 1</a>
-                                            </li>
-                                            <li class="dropdown-submenu">
-                                                <a href="#" data-toggle="dropdown">Consulta 2 <b class="caretl hidden-xs"></b><b class="caret hidden-sm hidden-md hidden-lg"></b></a>
-                                                <ul class="dropdown-menu">
-                                                    <li>
-                                                        <a target="_blank" href="#"><b class="caretl hidden-sm hidden-md hidden-lg opt2"></b> Consulta 2 - 1</a>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/arancel_de_aduanas">Arancel de aduanas</a>
                                                     </li>
-                                                    <li>
-                                                        <a target="_blank" href="#"><b class="caretl hidden-sm hidden-md hidden-lg opt2"></b> Consulta 2 - 2</a>
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/dam_numeradas">DAM numeradas</a>
                                                     </li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a target="_blank" href="#">Consulta 3</a>
-                                            </li>
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/normas_legales">Normas Legales</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/boletines_quimicos">Boletines Quimicos</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/ley_reglamento_lga">Ley reglamento LGA</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/resoluciones_arancelarias">Resoluciones Arancelarias</a>
+                                                    </li>
+                                                </div>
+                                                <div class="col-sm-6"> 
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/tipo_de_cambio_tamex">Tipo de cambio tamex</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/instructivo_dam">Instructivo DAM</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/informes_aduaneros">Informes Aduaneros</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/infracciones_sanciones">Infracciones Sanciones</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/links_de_ayuda">Links de ayuda</a>
+                                                    </li>
+                                                </div>
+                                            </div> 
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="<?php echo base_url();?>nosotros">NOSOTROS</a>
+                                        <a href="<?php echo base_url(); ?>Nosotros">NOSOTROS</a>
                                     </li>
                                     <li>
                                         <a href="#">NOTICIAS</a>
                                     </li>
                                     <li >
-                                        <a href="<?php echo base_url();?>contacto">CONTACTO</a>
+                                        <a href="<?php echo base_url(); ?>contacto">CONTACTO</a>
                                     </li> 
                                     <li class="dropdown hidden-xs separator">
                                         <a href="#">|</a>
                                     </li> 
                                     <li class="dropdown">
-                                        <a href="#" data-toggle="dropdown">ES<b class="caret"> </b></a>
+                                        <a href="#" >ES<b class="caret"> </b></a>
                                         <ul class="dropdown-menu">
                                             <li>
                                                 <a href="#">EN</a>
