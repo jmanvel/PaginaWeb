@@ -59,6 +59,11 @@ body {
     left: 0 !important;
     right: auto !important;
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
 .dropdown-menu {
     background-clip: padding-box;
     background-color: #ffffff;
@@ -306,7 +311,7 @@ body:not(.glyphicon) {
 }
 
 
-// Carrusel //
+/* Carrusel */
 
 .fade-carousel {
     position: relative;
@@ -542,7 +547,7 @@ body:not(.glyphicon) {
 
 /*************************************/
 
-/*******Contacto Directo ******////
+/*******Contacto Directo ******/
 
 .contacto {
     height: 570px;
