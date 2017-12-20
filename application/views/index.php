@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col-sm-1"></div>
                 <div class="col-sm-10">
-                    <div class="col-sm-4 cursor animated" animate="pulse" onclick="productos('carga.php')">
+                    <div class="col-sm-4 cursor animated" animate="pulse" onclick="productos('sce_carga')">
                         <div class="col-sm-12 services">
                             <div class="row" style="margin-top: 45px">
                                 <div class="col-sm-2"></div>
@@ -43,7 +43,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 cursor animated" animate="pulse" onclick="productos('aduana.php')">
+                    <div class="col-sm-4 cursor animated" animate="pulse" onclick="productos('sce_aduanas')">
                         <div class="col-sm-12 services">
                             <div class="row" style="margin-top: 45px">
                                 <div class="col-sm-2"></div>
@@ -59,7 +59,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 cursor animated" animate="pulse" onclick="productos('transporte.php')">
+                    <div class="col-sm-4 cursor animated" animate="pulse" onclick="productos('sce_transporte')">
                         <div class="col-sm-12 services">
                             <div class="row" style="margin-top: 45px">
                                 <div class="col-sm-2"></div>
@@ -82,7 +82,7 @@
             <div class="row">
                 <div class="col-sm-1"></div>
                 <div class="col-sm-10">
-                    <div class="col-sm-4 cursor animated" animate="pulse" onclick="productos('almacen.php')"> 
+                    <div class="col-sm-4 cursor animated" animate="pulse" onclick="productos('sce_almacen')"> 
                         <div class="col-sm-12 services">
                             <div class="row" style="margin-top: 45px">
                                 <div class="col-sm-2"></div>
@@ -98,7 +98,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 cursor animated" animate="pulse" onclick="productos('doctel.php')">
+                    <div class="col-sm-4 cursor animated" animate="pulse" onclick="productos('sce_doctel')">
                         <div class="col-sm-12 services">
                             <div class="row" style="margin-top: 45px">
                                 <div class="col-sm-2"></div>
@@ -114,7 +114,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 cursor animated" animate="pulse" onclick="productos('valor_agregado.php')">
+                    <div class="col-sm-4 cursor animated" animate="pulse" onclick="productos('productos_de_valor_agregado')">
                         <div class="col-sm-12 services">
                             <div class="row" style="margin-top: 45px" class="valoragregado">
                                 <div class="col-sm-2"></div>
@@ -251,3 +251,9 @@
         </div>
     </div>
 </div>
+
+<script>
+    function productos(producto) {
+        window.location.replace("productos/" + producto);
+    }
+</script>

@@ -116,6 +116,11 @@ body {
 .dropdown-menu {
     background-color: #fff;
 }
+
+.dropdown:hover .dropdown-menu {
+   display: block;
+}
+
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     background-color: #fff;
     color: #e22f22;
