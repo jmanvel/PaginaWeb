@@ -33,7 +33,8 @@
                                                 </li>
                                                 <li class="submenu">
                                                     <a href="<?php echo base_url();?>productos/sce_transporte">SCE - TRANSPORTE</a>
-                                                </li></div>
+                                                </li>
+                                            </div>
                                             <div class="col-sm-7">
                                                 <li class="submenu">
                                                     <a href="<?php echo base_url();?>productos/sce_almacen">SCE - ALMACEN</a>
@@ -70,7 +71,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="<?php echo base_url();?>Nosotros">NOSOTROS</a>
+                                        <a href="<?php echo base_url();?>nosotros">NOSOTROS</a>
                                     </li>
                                     <li>
                                         <a href="#">NOTICIAS</a>
