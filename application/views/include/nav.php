@@ -19,51 +19,76 @@
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul id="options" class="nav navbar-nav pull-right"> 
                                     <li class="dropdown">
-                                        <a href="productos.php" >PRODUCTOS<b class="caret"> </b></a>
+                                        <a href="productos" >PRODUCTOS<b class="caret"> </b></a>
                                         <ul class="dropdown-menu">
-                                            <div class="col-sm-5">
-                                                <li class="submenu">
-                                                    <a href="/Sintad/productos/carga.php">SCE - CARGA</a>
-                                                </li>
-                                                <li class="submenu">
-                                                    <a href="/Sintad/productos/aduana.php">SCE - ADUANAS</a>
-                                                </li>
-                                                <li class="submenu">
-                                                    <a href="/Sintad/productos/transporte.php">SCE - TRANSPORTE</a>
-                                                </li></div>
-                                            <div class="col-sm-7">
-                                                <li class="submenu">
-                                                    <a href="/Sintad/productos/almacen.php">SCE - ALMACEN</a>
-                                                </li>
-                                                <li class="submenu">
-                                                    <a href="/Sintad/productos/doctel.php">DOCTEL</a>
-                                                </li>
-                                                <li class="submenu">
-                                                    <a href="/Sintad/productos/valor_agregado.php">PRODUCTOS DE VALOR AGREGADO</a>
-                                                </li>
-                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-5">
+                                                    <li class="submenu">
+                                                        <a href="/Sintad/productos/carga.php">SCE - CARGA</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="/Sintad/productos/aduana.php">SCE - ADUANAS</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="/Sintad/productos/transporte.php">SCE - TRANSPORTE</a>
+                                                    </li>
+                                                </div>
+                                                <div class="col-sm-7">
+                                                    <li class="submenu">
+                                                        <a href="/Sintad/productos/almacen.php">SCE - ALMACEN</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="/Sintad/productos/doctel.php">DOCTEL</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="/Sintad/productos/valor_agregado.php">PRODUCTOS DE VALOR AGREGADO</a>
+                                                    </li>
+                                                </div>
+                                            </div> 
                                         </ul>
                                     </li>
                                     <li class="dropdown">
                                         <a href="#" >CONSULTAS EN LINEA <b class="caret"> </b></a>
                                         <ul class="dropdown-menu">
-                                            <li>
-                                                <a target="_blank" href="#">Consulta 1</a>
-                                            </li>
-                                            <li class="dropdown-submenu">
-                                                <a href="#" data-toggle="dropdown">Consulta 2 <b class="caretl hidden-xs"></b><b class="caret hidden-sm hidden-md hidden-lg"></b></a>
-                                                <ul class="dropdown-menu">
-                                                    <li>
-                                                        <a target="_blank" href="#"><b class="caretl hidden-sm hidden-md hidden-lg opt2"></b> Consulta 2 - 1</a>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <li class="submenu">
+                                                        <a href="#">Arancel de aduanas</a>
                                                     </li>
-                                                    <li>
-                                                        <a target="_blank" href="#"><b class="caretl hidden-sm hidden-md hidden-lg opt2"></b> Consulta 2 - 2</a>
+                                                    <li class="submenu">
+                                                        <a href="#">DAM numeradas</a>
                                                     </li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a target="_blank" href="#">Consulta 3</a>
-                                            </li>
+                                                    <li class="submenu">
+                                                        <a href="#">Normas Legales</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="#">Boletines Quimicos</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="#">Ley reglamento LGA</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="#">Resoluciones Arancelarias</a>
+                                                    </li>
+                                                </div>
+                                                <div class="col-sm-6"> 
+                                                    <li class="submenu">
+                                                        <a href="#">Tipo de cambio tamex</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="#">Instructivo DAM</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="#">Informes Aduaneros</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="#">Infracciones Sanciones</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="#">Links de ayuda</a>
+                                                    </li>
+                                                </div>
+                                            </div> 
                                         </ul>
                                     </li>
                                     <li>
