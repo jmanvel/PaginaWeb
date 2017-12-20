@@ -12,14 +12,6 @@ class Consultas_en_linea extends CI_Controller {
         parent::__construct();
     }
 
-    public function index() {
-        $this->load->view("include/head");
-        $this->load->view("include/nav");
-        $this->load->view("include/fecha_cambio");
-        $this->load->view("index");
-        $this->load->view("include/footer");
-    }
-
     public function arancel_de_aduanas() {
         $this->load->view("include/head");
         $this->load->view("include/nav");

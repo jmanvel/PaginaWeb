@@ -24,27 +24,29 @@
                                     <li class="dropdown"> 
                                         <a href="<?php echo base_url(); ?>productos">PRODUCTOS<b class="caret"> </b></a> 
                                         <ul class="dropdown-menu">  
-                                            <div class="col-sm-5">
-                                                <li class="submenu">
-                                                    <a href="<?php echo base_url(); ?>productos/sce_carga">SCE - CARGA</a>
-                                                </li>
-                                                <li class="submenu">
-                                                    <a href="<?php echo base_url(); ?>productos/sce_aduanas">SCE - ADUANAS</a>
-                                                </li>
-                                                <li class="submenu">
-                                                    <a href="<?php echo base_url(); ?>productos/sce_transporte">SCE - TRANSPORTE</a>
-                                                </li></div>
-                                            <div class="col-sm-7">
-                                                <li class="submenu">
-                                                    <a href="<?php echo base_url(); ?>productos/sce_almacen">SCE - ALMACEN</a>
-                                                </li>
-                                                <li class="submenu">
-                                                    <a href="<?php echo base_url(); ?>productos/sce_doctel">DOCTEL</a>
-                                                </li>
-                                                <li class="submenu">
-                                                    <a href="<?php echo base_url(); ?>productos/productos_de_valor_agregado">PRODUCTOS DE VALOR AGREGADO</a>
-                                                </li>
-                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-5">
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>productos/sce_carga">SCE - CARGA</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>productos/sce_aduanas">SCE - ADUANAS</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>productos/sce_transporte">SCE - TRANSPORTE</a>
+                                                    </li></div>
+                                                <div class="col-sm-7">
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>productos/sce_almacen">SCE - ALMACEN</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>productos/sce_doctel">DOCTEL</a>
+                                                    </li>
+                                                    <li class="submenu">
+                                                        <a href="<?php echo base_url(); ?>productos/productos_de_valor_agregado">PRODUCTOS DE VALOR AGREGADO</a>
+                                                    </li>
+                                                </div>
+                                            </div> 
                                         </ul>
                                     </li>
                                     <li class="dropdown">
