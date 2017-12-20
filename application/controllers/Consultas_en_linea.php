@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-class Arancel extends CI_Controller {
+class Consultas_en_linea extends CI_Controller {
 
     public function __construct() {
         parent::__construct();
@@ -16,23 +16,31 @@ class Arancel extends CI_Controller {
         $this->load->view("include/head");
         $this->load->view("include/nav");
         $this->load->view("include/fecha_cambio");
-        $this->load->view("arancel");
+        $this->load->view("index");
         $this->load->view("include/footer");
     }
 
-    public function subpartida() {
+    public function arancel_de_aduanas() {
         $this->load->view("include/head");
         $this->load->view("include/nav");
         $this->load->view("include/fecha_cambio");
-        $this->load->view("subpartida");
+        $this->load->view("consultas/arancel");
         $this->load->view("include/footer");
     }
 
-    public function partida() {
+    public function arancel_subpartida() {
         $this->load->view("include/head");
         $this->load->view("include/nav");
         $this->load->view("include/fecha_cambio");
-        $this->load->view("partida");
+        $this->load->view("consultas/arancel_subpartida");
+        $this->load->view("include/footer");
+    }
+
+    public function arancel_partida() {
+        $this->load->view("include/head");
+        $this->load->view("include/nav");
+        $this->load->view("include/fecha_cambio");
+        $this->load->view("consultas/arancel_partida");
         $this->load->view("include/footer");
     }
 

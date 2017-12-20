@@ -53,39 +53,39 @@
                                             <div class="row">
                                                 <div class="col-sm-6">
                                                     <li class="submenu">
-                                                        <a href="#">Arancel de aduanas</a>
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/arancel_de_aduanas">Arancel de aduanas</a>
                                                     </li>
                                                     <li class="submenu">
-                                                        <a href="#">DAM numeradas</a>
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/dam_numeradas">DAM numeradas</a>
                                                     </li>
                                                     <li class="submenu">
-                                                        <a href="#">Normas Legales</a>
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/normas_legales">Normas Legales</a>
                                                     </li>
                                                     <li class="submenu">
-                                                        <a href="#">Boletines Quimicos</a>
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/boletines_quimicos">Boletines Quimicos</a>
                                                     </li>
                                                     <li class="submenu">
-                                                        <a href="#">Ley reglamento LGA</a>
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/ley_reglamento_lga">Ley reglamento LGA</a>
                                                     </li>
                                                     <li class="submenu">
-                                                        <a href="#">Resoluciones Arancelarias</a>
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/resoluciones_arancelarias">Resoluciones Arancelarias</a>
                                                     </li>
                                                 </div>
                                                 <div class="col-sm-6"> 
                                                     <li class="submenu">
-                                                        <a href="#">Tipo de cambio tamex</a>
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/tipo_de_cambio_tamex">Tipo de cambio tamex</a>
                                                     </li>
                                                     <li class="submenu">
-                                                        <a href="#">Instructivo DAM</a>
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/instructivo_dam">Instructivo DAM</a>
                                                     </li>
                                                     <li class="submenu">
-                                                        <a href="#">Informes Aduaneros</a>
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/informes_aduaneros">Informes Aduaneros</a>
                                                     </li>
                                                     <li class="submenu">
-                                                        <a href="#">Infracciones Sanciones</a>
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/infracciones_sanciones">Infracciones Sanciones</a>
                                                     </li>
                                                     <li class="submenu">
-                                                        <a href="#">Links de ayuda</a>
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/links_de_ayuda">Links de ayuda</a>
                                                     </li>
                                                 </div>
                                             </div> 
