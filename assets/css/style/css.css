@@ -850,3 +850,14 @@ body:not(.glyphicon) {
 .nowrap-td td {
     white-space: nowrap;
 } 
+
+/* Table Arancel Partida */
+.table-arancel {
+    background-color: white;
+    padding: 20px;
+}
+
+.table-arancel > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #e22f22;
+}

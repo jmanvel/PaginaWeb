@@ -205,7 +205,7 @@
     var deta = function () {
         $("#dataTable tbody tr").each(function () {
             $(this).click(function () {
-                callModal('Boletín Químico', '<?php echo base_url();?>consultas_en_linea/boletin_detalle');
+                callModal('Boletín Químico', '<?php echo base_url(); ?>consultas_en_linea/boletin_detalle');
                 $('#dataTable tbody tr').removeClass('info2');
                 $(this).addClass('info2');
             });

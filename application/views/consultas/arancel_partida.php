@@ -8,7 +8,7 @@
         </div>
         <div class="row">
             <div class="col-sm-offset-1 col-sm-4">
-                <table class="table">
+                <table class="table table-arancel">
                     <thead>
                         <tr>
                             <th colspan="2">DESCRIPCIÓN</th>
@@ -47,7 +47,7 @@
             <div class="col-sm-6">
                 <div class="row">
                     <div class="col-xs-6 col-sm-6">
-                        <table class="table table-condensed">
+                        <table class="table table-condensed table-arancel">
                             <thead>
                                 <tr>
                                     <th>GRAVÁMENES VIGENTES</th>
@@ -99,7 +99,7 @@
                         </table>
                     </div>
                     <div class="col-xs-6 col-sm-6">
-                        <table class="table">
+                        <table class="table table-arancel">
                             <thead>
                                 <tr>
                                     <th colspan="4">C.A.N. ANEXO</th>
@@ -134,7 +134,7 @@
                         </table>
                     </div>
                     <div class="col-xs-6 col-sm-6">
-                        <table class="table">
+                        <table class="table table-arancel">
                             <thead>
                                 <tr>
                                     <th colspan="2">ECUADOR</th>
@@ -155,7 +155,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-6 col-sm-6">
-                        <table class="table">
+                        <table class="table table-arancel">
                             <thead>
                                 <tr>
                                     <th colspan="4">ACUERDO BILATERAL</th>
@@ -178,7 +178,7 @@
                         </table>
                     </div>
                     <div class="col-xs-6 col-sm-6">
-                        <table class="table">
+                        <table class="table table-arancel">
                             <thead>
                                 <tr>
                                     <th colspan="2">ZONA LIBRE COMERCIO</th>
