@@ -251,9 +251,3 @@
         </div>
     </div>
 </div>
-
-<script>
-    function productos(producto) {
-        window.location.replace("productos/" + producto);
-    }
-</script>

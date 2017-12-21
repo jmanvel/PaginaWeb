@@ -42,3 +42,16 @@ var showSearch = function () {
 var btnSearch = function () {
 
 };
+
+function productos(producto) {
+    window.location.replace("productos/" + producto);
+}
+
+var callModal = function (titulo, url) {
+    $('#myModal .modal-body').html("");
+    $('#myModal #myModalLabel').html(titulo);
+    $('#myModal').modal({keyboard: true}, 'show');
+    if (url !== undefined && url !== '') {
+        $('#myModal .modal-body').load(url);
+    }
+};
