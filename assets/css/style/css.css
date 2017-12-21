@@ -644,6 +644,12 @@ body:not(.glyphicon) {
 }
 
 
+.myModalLabel, h4, .h4 {
+    font-size: 30px;
+    text-align: center;
+}
+
+
 /********************************/
 /*          Media Queries       */
 /********************************/
