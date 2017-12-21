@@ -10,12 +10,6 @@
                     <input id="" name="" type="text" class="form-control" placeholder="Ingresa descripción">
                 </div>
             </div>
-            <div class="col-sm-offset-3 col-sm-6">
-                <div class="form-group">
-                    <label for="" class="control-label">Partida Anterior:</label>
-                    <input id="" name="" type="text" class="form-control" placeholder="Ingresa partida">
-                </div>
-            </div>
         </div>
         <div class="row">
             <div class="col-sm-offset-5 col-sm-2" style="text-align: center; ">

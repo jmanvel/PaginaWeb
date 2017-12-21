@@ -36,4 +36,20 @@ class Consultas_en_linea extends CI_Controller {
         $this->load->view("include/footer");
     }
 
+    public function dam_numeradas() {
+        $this->load->view("include/head");
+        $this->load->view("include/nav");
+        $this->load->view("include/fecha_cambio");
+        $this->load->view("consultas/dam_numeradas");
+        $this->load->view("include/footer");
+    }
+
+    public function normas_legales() {
+        $this->load->view("include/head");
+        $this->load->view("include/nav");
+        $this->load->view("include/fecha_cambio");
+        $this->load->view("consultas/normas_legales");
+        $this->load->view("include/footer");
+    }
+
 }
