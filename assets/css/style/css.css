@@ -861,3 +861,34 @@ body:not(.glyphicon) {
     vertical-align: bottom;
     border-bottom: 2px solid #e22f22;
 }
+
+/* Paginacion */
+.pagination > li > a,
+.pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    color: #e22f22;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-left: -1px;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover {
+    color: #e22f22; 
+}
+
+.pagination > .active > a, 
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    z-index: 3;
+    color: #ffffff;
+    background-color: #e22f22;
+    border-color: #e22f22;
+    cursor: default;
+}

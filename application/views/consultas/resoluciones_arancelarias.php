@@ -1,5 +1,6 @@
 <div class="container-fluid" style="background: #f5f5f5">
     <div class="container">
+        <div class="gray"></div>
         <div class="row">
             <div class="col-sm-12"><h1 style="font-weight: bold; text-align: center; margin-top: 80px">RESOLUCIONES ARANCELARIAS</h1></div>
         </div> 
