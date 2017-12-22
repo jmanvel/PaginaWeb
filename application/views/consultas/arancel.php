@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-sm-offset-3 col-sm-6">
                 <div class="form-group">
-                    <label for="" class="control-label">Descripción o Nandina:</label>
+                    <label for="" class="control-label">Descripción o Nandina</label>
                     <input id="" name="" type="text" class="form-control" placeholder="Ingresa descripción">
                 </div>
             </div>
