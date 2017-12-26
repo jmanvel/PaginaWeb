@@ -6,7 +6,7 @@
                     <div class="col-sm-1"></div>
                     <div class="col-sm-4" id="nosotrosfoto"></div>
                     <div class="col-sm-6" id="nosotrostexto">
-                        <h4>
+                        <h4 style="font-size: 18px">
                             SINTAD es una organización que nació en el año 1998 y desde entonces se dedica exclusivamente a brindar soluciones integrales y efectivas para el desarrollo 
                             de todas las empresas involucradas al comercio internacional.
                             Después de 17 años de experiencia nos sentimos orgullosos de haber contribuido a la consolidación de los negocios y desarrollo de nuestros clientes. 
@@ -14,11 +14,11 @@
                             comprometidos en satisfacer eficientemente las demandas de todos nuestros clientes.
                         </h4>
                         <br>
-                        <h4>
+                        <h4 style="font-size: 18px">
                             Contamos con un equipo de profesionales altamente experimentados y comprometidos en satisfacer eficientemente las demandas de todos nuestros clientes.
                         </h4>
                         <br>
-                        <h4>
+                        <h4 style="font-size: 18px">
                             Llegamos hasta aquí, movidos por el deseo de ser mejores constantemente; trabajando arduamente con el compromiso de superar 
                             las expectativas y para transformar las necesidades de nuestros clientes en parte de su éxito.
                         </h4>

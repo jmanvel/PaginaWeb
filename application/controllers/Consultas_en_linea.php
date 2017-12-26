@@ -35,7 +35,7 @@ class Consultas_en_linea extends CI_Controller {
         $this->load->view("consultas/arancel_partida");
         $this->load->view("include/footer");
     }
-    
+
     public function boletines_quimicos() {
         $this->load->view("include/head");
         $this->load->view("include/nav");
@@ -43,9 +43,17 @@ class Consultas_en_linea extends CI_Controller {
         $this->load->view("consultas/boletines");
         $this->load->view("include/footer");
     }
-    
-    public function boletin_detalle(){
+
+    public function boletin_detalle() {
         $this->load->view("consultas/boletines_detalle");
+    }
+
+    public function tipo_de_cambio_tamex() {
+        $this->load->view("include/head");
+        $this->load->view("include/nav");
+        $this->load->view("include/fecha_cambio");
+        $this->load->view("consultas/tipo_de_cambio_tamex");
+        $this->load->view("include/footer");
     }
 
 }
