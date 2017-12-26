@@ -147,19 +147,7 @@
                                 </td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
-                                <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
-                                <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
-                            </tr>
-                            <tr style="cursor: pointer">
-                                <td>
-                                    F.P: 14/12/2017 
-                                    F.V: 14/12/2017 
-                                    F.C: 14/12/2017 
-                                    <span class="btn btn-hero" style=" width: 100px; height: 30px; padding: 5px 0; background: red; outline: none;margin: 10px auto;">Ver más</span>
-                                </td>
-                                <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
-                                <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
-                                <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                                <td><a style="color: red" href="#">SUNAT</a></td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
                             </tr>
                             <tr style="cursor: pointer">
@@ -171,7 +159,19 @@
                                 </td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                                <td><a style="color: red" href="#">SUNAT</a></td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                            </tr>
+                            <tr style="cursor: pointer">
+                                <td>
+                                    F.P: 14/12/2017 
+                                    F.V: 14/12/2017 
+                                    F.C: 14/12/2017 
+                                    <span class="btn btn-hero" style=" width: 100px; height: 30px; padding: 5px 0; background: red; outline: none;margin: 10px auto;">Ver más</span>
+                                </td>
+                                <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                                <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                                <td><a style="color: red" href="#">SUNAT</a></td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
                             </tr>
                         </tbody>

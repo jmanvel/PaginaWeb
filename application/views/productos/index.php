@@ -1,5 +1,6 @@
 <div class="container-fluid vision" style="height: 335px;">
     <div class="container">
+        <div class="white"></div>
         <div class="row" style="margin-bottom: 50px">
             <div class="col-sm-2"></div>
             <div class="col-sm-8" style="margin-top: 35px">
