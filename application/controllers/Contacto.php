@@ -1,6 +1,6 @@
 <?php
 
-/* 
+/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -17,7 +17,6 @@ class Contacto extends CI_Controller {
         $this->load->view("include/nav");
         $this->load->view("include/fecha_cambio");
         $this->load->view("contacto");
-        $this->load->view("include/clientes");
         $this->load->view("include/footer");
     }
 

@@ -31,9 +31,9 @@
                                     <div class="col-sm-3" style="text-align: left">
                                         <button class="btn btn-hero btn-lg redVermas" role="button">Ver más</button>
                                     </div>
-                                    <div class="col-sm-3" style="text-align: left">
+<!--                                    <div class="col-sm-3" style="text-align: left">
                                         <button class="btn btn-hero btn-lg white" role="button" >Contáctanos</button>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
                         </div>

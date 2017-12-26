@@ -49,8 +49,9 @@ a:hover {
 .navbar-nav > li > .dropdown-menu {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    margin-top: 0;
+    margin-top: 20px;
     background: white; /*#f5f5f5;*/ /*#e2e2e2;*/
+    text-transform: uppercase;
 }
 
 .navbar-right .dropdown-menu {
@@ -96,7 +97,7 @@ a:hover {
 #conectamos{
     color: #fff; 
     font-size: 30px;
-    margin-top: 130px; 
+    margin-top: 110px; 
     text-align: center
 }
 
@@ -123,6 +124,13 @@ a:hover {
     src: url('fonts/MyriadPro-Bold.otf');
 } 
 
+@font-face {
+    font-family: 'MyriadPro-It';
+    src: url('fonts/MyriadPro-It.otf');
+}
+
+
+
 .dropdown-menu {
     left: 0 !important;
     right: auto !important;
@@ -143,8 +151,12 @@ a:hover {
     padding: 20px 0;
 }
 
+#productosSnt{
+    font-family: MyriadPro-It;
+}
+
 .fch-cambio {
-    padding-top: 3px;
+    padding-top: 2px;
     position: fixed; 
     top: 90px; 
     right: 0; 
@@ -235,12 +247,14 @@ body:not(.glyphicon) {
 
 .red3 {
     background-color: #e22f22;
-    height: 13px;
+    height: 10px;
     width: 100%;
 }
 
 .services{
-    background: #fff; height: 197px
+    background: #fff;
+    /*height: 197px;*/
+    height: 220px;
 }
 
 #servicios{
@@ -249,11 +263,12 @@ body:not(.glyphicon) {
 }
 
 #sce {
-    font-size: 45px
+    font-size: 55px
 }
 
 #scesistema{
-    vertical-align: 10px;
+    font-family: myriadroman;
+    vertical-align: 14px;
 }
 
 #noticia1{
@@ -535,13 +550,13 @@ body:not(.glyphicon) {
 }
 
 #visionImg{
-    background-image: url(/PaginaWeb/assets/img/vision.jpg);
+    background-image: url(/PaginaWeb/assets/img/vision2.jpg);
     height: 100%;
     background-size: cover;
 }
 
 #misionImg{
-    background-image: url(/PaginaWeb/assets/img/mision.jpg);
+    background-image: url(/PaginaWeb/assets/img/mision2.jpg);
     height: 100%;
     background-size: cover;
 }
@@ -551,8 +566,8 @@ body:not(.glyphicon) {
 }
 
 .imgvalor{
-    height: 128px;
-    width: 128px;
+    height: 70px;
+    width: 70px;
 }
 
 .valor{
@@ -565,7 +580,7 @@ body:not(.glyphicon) {
 /*******Contacto Directo ******/
 
 .contacto {
-    height: 570px;
+    /*height: 500px;*/
     background: #fff;
 }
 
@@ -654,8 +669,8 @@ body:not(.glyphicon) {
 
 
 .myModalLabel, h4, .h4 {
-    font-size: 30px;
-    text-align: center;
+    /*font-size: 30px;*/
+    /*text-align: center;*/
 }
 
 
@@ -904,4 +919,12 @@ body:not(.glyphicon) {
     background-color: #e22f22;
     border-color: #e22f22;
     cursor: default;
+}
+
+input, button, select, textarea {
+    font-family: 'MyriadPro-Bold';
+}
+
+.v-resize {
+    resize: vertical;
 }

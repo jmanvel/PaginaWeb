@@ -6,17 +6,17 @@
                 <div class="col-sm-1"></div>
                 <div class="col-sm-4" style="margin-top: -420px;">
                     <div class="container white" style="height: 350px; width: 370px;  position: absolute;margin-left: 15px" id="mapa">
-                        <div class="row">
+                        <div class="row" style="margin-top: 20px">
                             <div class="col-sm-2"></div>
                             <div class="col-sm-8">
-                                <h3 style="margin-top: 50px; padding-bottom: 15px; font-weight: bold;">UB&Iacute;CANOS</h3>
+                                <h3 style="margin-top: 50px; padding-bottom: 15px; font-family: MyriadPro-Bold; font-size: 28px">UB&Iacute;CANOS</h3>
                             </div>
                             <div class="col-sm-2"></div>
                         </div>
                         <div class="row">
                             <div class="col-sm-2"></div>
                             <div class="col-sm-2"><img src="<?php echo base_url(); ?>assets/img/map.png" alt="ubicacion" ></div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-7" style="margin-left: -20px; color: #aeaeae">
                                 <p style="font-size: 16px"> Pasaje Parque<br> San Carlos 271- 275<br> Pueblo Libre, Lima, Per&uacute;</p>
                             </div>
                             <div class="col-sm-2"></div>
@@ -24,7 +24,7 @@
                         <div class="row">
                             <div class="col-sm-2"></div>
                             <div class="col-sm-2"><img src="<?php echo base_url(); ?>assets/img/phone.png" alt="telefono" ></div>
-                            <div class="col-sm-7">
+                            <div class="col-sm-7" style="margin-left: -20px; color: #aeaeae; margin-top: 5px;">
                                 <p style="font-size: 16px">(511) 743 - 4040</p>
                             </div>
                             <div class="col-sm-1"></div>
@@ -33,7 +33,7 @@
                         <div class="row">
                             <div class="col-sm-2"></div>
                             <div class="col-sm-2"><img src="<?php echo base_url(); ?>assets/img/mail.png" alt="Mail"></div>
-                            <div class="col-sm-7">
+                            <div class="col-sm-7" style="margin-left: -20px; color: #aeaeae; margin-top: 5px;">
                                 <p style="font-size: 16px">contacto@sintad.com.pe</p>
                             </div>
                             <div class="col-sm-1"></div>
@@ -49,7 +49,7 @@
 <div class="container-fluid contacto">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12"><h1 style="font-weight: bold; text-align: center; margin-top: 80px">CONTACTO ESPEC&Iacute;FICO</h1></div>
+            <div class="col-sm-12"><h1 style="text-align: center; margin-top: 80px;font-family: MyriadPro-Bold;">CONTACTO ESPEC&Iacute;FICO</h1></div>
         </div>
         <div class="row" style="padding-bottom: 50px">
             <div class="col-sm-5"></div>
@@ -59,18 +59,18 @@
             </div>
             <div class="col-sm-5"></div>
         </div>
-        <div class="row" style="padding-bottom: 50px">
+        <div class="row" style="padding-bottom: 20px">
             <div class="col-sm-4"></div>
             <div class="col-sm-4">
                 <div class="form-group">
                     <select id="modulo" name="modulo" class="form-control input-sm" style="height: 50px">
-                        <option value="">Selecciona una catoegoría</option>
+                        <option value="">Selecciona una categoría</option>
                     </select>
                 </div>
             </div>
             <div class="col-sm-4"></div>
         </div>
-        <div class="row" style="padding-bottom: 50px">
+        <div class="row" style="padding-bottom: 80px">
             <div class="col-sm-4"></div>
             <div class="col-sm-4">
                 <div class="form-group">
@@ -86,7 +86,7 @@
 <div class="container-fluid" style="background: #e7e7e7">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12"><h1 style="font-weight: bold; text-align: center; margin-top: 80px">ESCR&Iacute;BENOS</h1></div>
+            <div class="col-sm-12"><h1 style="text-align: center; margin-top: 80px;font-family: MyriadPro-Bold;">ESCR&Iacute;BENOS</h1></div>
         </div>
         <div class="row" style="padding-bottom: 50px">
             <div class="col-sm-5"></div>
@@ -96,7 +96,7 @@
             </div>
             <div class="col-sm-5"></div>
         </div>
-        <div class="row" style="padding-bottom: 50px">
+        <div class="row" style="padding-bottom: 10px">
             <div class="col-sm-1"></div>
             <div class="col-sm-5">
                 <div class="form-group">  
@@ -110,16 +110,16 @@
             </div>
             <div class="col-sm-1"></div>
         </div>
-        <div class="row" style="padding-bottom: 50px">
+        <div class="row" style="padding-bottom: 10px">
             <div class="col-sm-1"></div>
             <div class="col-sm-10">
                 <div class="form-group">
-                    <textarea class="form-control" value="" rows="4" id="detalle" name="detalle" placeholder="Mensaje"></textarea>
+                    <textarea class="form-control v-resize" value="" rows="4" id="detalle" name="detalle" placeholder="Mensaje"></textarea>
                 </div>
             </div>
             <div class="col-sm-1"></div>
         </div>
-        <div class="row" style="padding-bottom: 50px">
+        <div class="row" style="padding-bottom: 60px">
             <div class="col-sm-5"></div>
             <div class="col-sm-2" style="text-align: center; ">
                 <button class="btn btn-hero btn-lg redVermas" role="button">Enviar</button>

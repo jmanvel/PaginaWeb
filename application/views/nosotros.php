@@ -100,7 +100,7 @@
                 </div>
                 <div class="col-sm-2"></div>
             </div>
-            <div class="col-sm-12" style="padding-bottom: 50px;">
+            <div class="col-sm-offset-1 col-sm-10" style="padding-bottom: 50px;">
                 <div class="col-sm-3">
                     <div class="row">
                         <div class="col-sm-12 valor">
@@ -111,7 +111,7 @@
                         <div class="col-sm-12">
                             <h4 style="text-align: center">SOLIDARIDAD</h4>
                         </div>
-                        <div class="col-sm-12"> <p style="text-align: center">SOLIDARIDAD  Unidos en todo momento y solucionando problemas, a&Uacute;n m&aacute;s si son ajenos, pues es ah&iacute;
+                        <div class="col-sm-12"> <p style="text-align: center">Unidos en todo momento y solucionando problemas, a&uacute;n m&aacute;s si son ajenos, pues es ah&iacute;
                                 cuando ponemos a prueba nuestra verdadera capacidad de trabajo grupal.</p>
                         </div>
                     </div>
