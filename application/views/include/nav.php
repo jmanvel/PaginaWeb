@@ -20,7 +20,7 @@
                                 </a>
                             </div>
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <ul id="options" class="nav navbar-nav pull-right"> 
+                                <ul id="options" class="nav navbar-nav pull-right animated" animate="bounceInLeft"> 
                                     <li class="dropdown"> 
                                         <a href="<?php echo base_url(); ?>productos">PRODUCTOS<b class="caret"> </b></a> 
                                         <ul class="dropdown-menu">  
@@ -122,15 +122,15 @@
                                     <li>
                                         <a target="_blank" href="#">LOG IN</a>
                                     </li>
-                                    <li class="dropdown hidden-xs separator">
+                                    <li class="dropdown hidden-xs separator" style="user-select: none;">
                                         <a href="#">|</a>
                                     </li>
                                     <li>
-                                        <a class="cursor" onclick="showSearch()">
+                                        <a class="cursor" style="user-select: none;" onclick="showSearch()">
                                             <span class="glyphicon glyphicon-search"></span>
                                         </a>
                                     </li> 
-                                    <li class="dropdown hidden-xs separator">
+                                    <li class="dropdown hidden-xs separator" style="user-select: none;">
                                         <a href="#">|</a>
                                     </li>
                                 </ul>
@@ -142,15 +142,15 @@
                                             </div>
                                         </form>
                                     </li>
-                                    <li class="dropdown hidden-xs separator">
+                                    <li class="dropdown hidden-xs separator" style="user-select: none;">
                                         <a href="#">|</a>
                                     </li>
                                     <li>
-                                        <a class="cursor"  onclick="showSearch()">
+                                        <a class="cursor"  style="user-select: none;" onclick="showSearch()">
                                             <span class="glyphicon glyphicon-search"></span>
                                         </a>
                                     </li> 
-                                    <li class="dropdown hidden-xs separator">
+                                    <li class="dropdown hidden-xs separator" style="user-select: none;">
                                         <a href="#">|</a>
                                     </li>
                                 </ul>

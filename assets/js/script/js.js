@@ -11,7 +11,7 @@ $(document).ready(function () {
 });
 
 var initAnimated = function () {
-    $(".animated").not("input").each(function () {
+    $("div.animated").not("input").each(function () {
         $(this).hover(function () {
             var animate = $(this).attr("animate");
             if ($(this).hasClass(animate)) {
@@ -22,7 +22,7 @@ var initAnimated = function () {
         });
     });
     $("input.animated").each(function () {
-        $(this).bind("isVisible", function () {
+        $(this).bind("animate", function () {
             var animate = $(this).attr("animate");
             if ($(this).hasClass(animate)) {
                 $(this).removeClass(animate);
@@ -35,7 +35,7 @@ var initAnimated = function () {
 
 var showSearch = function () {
     $('#searchOption').toggle();
-    $("#txtSearch").trigger("isVisible");
+    $("#txtSearch").trigger("animate");
     $("#options").toggle();
 };
 

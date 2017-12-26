@@ -123,7 +123,7 @@ body {
 }
 
 .dropdown:hover .dropdown-menu {
-   display: block;
+    display: block;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
@@ -135,6 +135,7 @@ body {
 }
 
 .fch-cambio {
+    padding-top: 3px;
     position: fixed; 
     top: 90px; 
     right: 0; 
@@ -625,6 +626,23 @@ body:not(.glyphicon) {
     /*width: 277px;*/
 }
 
+.box {
+    height: 20px; 
+    width: 20px;
+}
+
+.box-green {
+    background: #79b93d;
+}
+
+.box-orange {
+    background: #f39c12;
+}
+
+.box-red { 
+    background: #e22f22;
+}
+
 
 .myModalLabel, h4, .h4 {
     font-size: 30px;
@@ -824,4 +842,57 @@ body:not(.glyphicon) {
         height: 160%;
     }
 
+}
+
+.nowrap td, 
+.nowrap th,
+.nowrap-th th,
+.nowrap-td td {
+    white-space: nowrap;
+} 
+
+/* Table Arancel Partida */
+.table-arancel {
+    background-color: white;
+    padding: 20px;
+}
+
+.table-arancel > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #e22f22;
+}
+
+.table-arancel > tbody > tr > td {
+    border: none;
+}
+
+/* Paginacion */
+.pagination > li > a,
+.pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    color: #e22f22;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-left: -1px;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover {
+    color: #e22f22; 
+}
+
+.pagination > .active > a, 
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    z-index: 3;
+    color: #ffffff;
+    background-color: #e22f22;
+    border-color: #e22f22;
+    cursor: default;
 }

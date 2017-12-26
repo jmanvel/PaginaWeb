@@ -48,6 +48,27 @@ class Consultas_en_linea extends CI_Controller {
         $this->load->view("consultas/boletines_detalle");
     }
 
+    public function dam_numeradas() {
+        $this->load->view("include/head");
+        $this->load->view("include/nav");
+        $this->load->view("include/fecha_cambio");
+        $this->load->view("consultas/dam_numeradas");
+        $this->load->view("include/footer");
+    }
+
+    public function normas_legales() {
+        $this->load->view("include/head");
+        $this->load->view("include/nav");
+        $this->load->view("include/fecha_cambio");
+        $this->load->view("consultas/normas_legales");
+        $this->load->view("include/footer");
+    }
+
+    public function resoluciones_arancelarias() {
+        $this->load->view("include/head");
+        $this->load->view("include/nav");
+        $this->load->view("include/fecha_cambio");
+        $this->load->view("consultas/resoluciones_arancelarias");
     public function tipo_de_cambio_tamex() {
         $this->load->view("include/head");
         $this->load->view("include/nav");

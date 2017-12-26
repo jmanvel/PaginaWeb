@@ -6,13 +6,13 @@
         <div class="row">
             <div class="col-sm-offset-2 col-sm-4">
                 <div class="form-group">
-                    <label for="" class="control-label">Nandina:</label>
+                    <label for="" class="control-label">Nandina</label>
                     <input id="" name="" type="text" class="form-control" placeholder="Ingresa descripción" style="height: 50px">
                 </div>
             </div>
             <div class="col-sm-3">
                 <div class="form-group">
-                    <label for="" class="control-label">N&#176; Dam:</label>
+                    <label for="" class="control-label">N&#176; DAM</label>
                     <input id="" name="" type="text" class="form-control" placeholder="Ingresa partida" style="height: 50px">
                 </div>
             </div>
@@ -20,20 +20,20 @@
         <div class="row">
             <div class="col-sm-offset-2 col-sm-4">
                 <div class="form-group">
-                    <label for="" class="control-label">Descripción:</label>
+                    <label for="" class="control-label">Descripción</label>
                     <input id="" name="" type="text" class="form-control" placeholder="Ingresa descripción" style="height: 50px">
                 </div>
             </div>
             <div class="col-sm-3">
                 <div class="form-group">
-                    <label for="" class="control-label">N&#176; Boletín:</label>
+                    <label for="" class="control-label">N&#176; Boletín</label>
                     <input id="" name="" type="text" class="form-control" placeholder="Ingresa partida" style="height: 50px">
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-offset-2 col-sm-4">
-                <label for="" class="control-label">Aduana:</label>
+                <label for="" class="control-label">Aduana</label>
                 <div class="form-group">
                     <select id="modulo" name="modulo" class="form-control input-sm" style="height: 50px">
                         <option value="">Selecciona una catoegoría</option>
@@ -43,7 +43,7 @@
             </div>
             <div class="col-sm-3">
                 <div class="form-group">
-                    <label for="" class="control-label">Año:</label>
+                    <label for="" class="control-label">Año</label>
                     <input id="" name="" type="text" class="form-control" placeholder="Ingresa partida" style="height: 50px">
                 </div>
             </div>
@@ -51,12 +51,12 @@
         <div class="row">
             <div class="col-sm-offset-2 col-sm-4">
                 <div class="form-group">
-                    <label for="" class="control-label">Agente de Aduanas:</label>
+                    <label for="" class="control-label">Agente de Aduanas</label>
                     <input id="" name="" type="text" class="form-control" placeholder="Ingresa descripción" style="height: 50px">
                 </div>
             </div>
             <div class="col-sm-3">
-                <label for="" class="control-label">Estado:</label>
+                <label for="" class="control-label">Estado</label>
                 <div class="form-group">
                     <select id="modulo" name="modulo" class="form-control input-sm" style="height: 50px">
                         <option value="">Selecciona una catoegoría</option>
@@ -205,7 +205,7 @@
     var deta = function () {
         $("#dataTable tbody tr").each(function () {
             $(this).click(function () {
-                callModal('Boletín Químico', '<?php echo base_url();?>consultas_en_linea/boletin_detalle');
+                callModal('Boletín Químico', '<?php echo base_url(); ?>consultas_en_linea/boletin_detalle');
                 $('#dataTable tbody tr').removeClass('info2');
                 $(this).addClass('info2');
             });

@@ -6,14 +6,8 @@
         <div class="row">
             <div class="col-sm-offset-3 col-sm-6">
                 <div class="form-group">
-                    <label for="" class="control-label">Descripción o Nandina:</label>
+                    <label for="" class="control-label">Descripción o Nandina</label>
                     <input id="" name="" type="text" class="form-control" placeholder="Ingresa descripción">
-                </div>
-            </div>
-            <div class="col-sm-offset-3 col-sm-6">
-                <div class="form-group">
-                    <label for="" class="control-label">Partida Anterior:</label>
-                    <input id="" name="" type="text" class="form-control" placeholder="Ingresa partida">
                 </div>
             </div>
         </div>
@@ -31,7 +25,7 @@
         <div class="row">
             <div class="col-sm-offset-2 col-sm-8">
                 <div class="table-responsive">
-                    <table class="table table-hover table-striped">
+                    <table id="myTable" class="table table-hover table-striped">
                         <thead>
                             <tr>
                                 <th>Nandina</th>
@@ -40,27 +34,27 @@
                         </thead>
                         <tbody>
                             <tr style="cursor: pointer;">
-                                <td style="color: red;">010101</td>
+                                <td><a style="color: red;" href="<?php echo base_url(); ?>consultas_en_linea/arancel_subpartida/010101">010101</a></td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
                             </tr>
                             <tr style="cursor: pointer;">
-                                <td style="color: red;">010101</td>
+                                <td><a style="color: red;" href="<?php echo base_url(); ?>consultas_en_linea/arancel_subpartida/010101">010101</a></td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
                             </tr>
                             <tr style="cursor: pointer;">
-                                <td style="color: red;">010101</td>
+                                <td><a style="color: red;" href="<?php echo base_url(); ?>consultas_en_linea/arancel_subpartida/010101">010101</a></td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
                             </tr>
                             <tr style="cursor: pointer;">
-                                <td style="color: red;">010101</td>
+                                <td><a style="color: red;" href="<?php echo base_url(); ?>consultas_en_linea/arancel_subpartida/010101">010101</a></td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
                             </tr>
                             <tr style="cursor: pointer;">
-                                <td style="color: red;">010101</td>
+                                <td><a style="color: red;" href="<?php echo base_url(); ?>consultas_en_linea/arancel_subpartida/010101">010101</a></td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
                             </tr>
                             <tr style="cursor: pointer;">
-                                <td style="color: red;">010101</td>
+                                <td><a style="color: red;" href="<?php echo base_url(); ?>consultas_en_linea/arancel_subpartida/010101">010101</a></td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
                             </tr>
                         </tbody>
