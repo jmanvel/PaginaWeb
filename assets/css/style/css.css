@@ -862,6 +862,10 @@ body:not(.glyphicon) {
     border-bottom: 2px solid #e22f22;
 }
 
+.table-arancel > tbody > tr > td {
+    border: none;
+}
+
 /* Paginacion */
 .pagination > li > a,
 .pagination > li > span {

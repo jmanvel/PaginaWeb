@@ -86,28 +86,32 @@
                     </select>
                 </div>
             </div>
-            <div class="col-sm-2">
-                <div class="form-group">
-                    <label for="" class="control-label">Seleccionar tiempo</label>
-                    <div id="" class="input-group date" data-date-format="dd/mm/yyyy">
-                        <input id="" name="" type="text" class="form-control" placeholder="Desde" value=""/>
-                        <span class="input-group-addon">
-                            <span class="glyphicon glyphicon-calendar"></span>
-                        </span>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-sm-2">
-                <div class="form-group">
-                    <label for="" class="control-label"> </label>
-                    <div id="" class="input-group date" data-date-format="dd/mm/yyyy">
-                        <input id="" name="" type="text" class="form-control" placeholder="Hasta" value=""/>
-                        <span class="input-group-addon">
-                            <span class="glyphicon glyphicon-calendar"></span>
-                        </span>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="" class="control-label">Seleccionar periodo</label>
+                            <div id="" class="input-group date" data-date-format="dd/mm/yyyy">
+                                <input id="" name="" type="text" class="form-control" placeholder="Desde" value=""/>
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div> 
+                        </div>
                     </div>
-                </div>
-            </div> 
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="" class="control-label">&nbsp;</label>
+                            <div id="" class="input-group date" data-date-format="dd/mm/yyyy">
+                                <input id="" name="" type="text" class="form-control" placeholder="Hasta" value=""/>
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
         </div>
         <div class="row">
             <div class="col-sm-offset-5 col-sm-2" style="text-align: center; ">
@@ -120,7 +124,7 @@
 <div class="container-fluid" style="background: white;">
     <div class="container">
         <div class="white"></div>
-        <div class="row">
+        <div class="row"> 
             <div class="col-sm-offset-1 col-sm-10">
                 <div class="table-responsive">
                     <table class="table table-striped table-hover nowrap-th">
@@ -139,7 +143,7 @@
                                     F.P: 14/12/2017 
                                     F.V: 14/12/2017 
                                     F.C: 14/12/2017 
-                                    <span class="btn btn-hero" style=" width: 100px; height: 30px; padding: 5px 0; background: red; outline: none;margin: 10px auto;">Ver PDF</span>
+                                    <span class="btn btn-hero" style=" width: 100px; height: 30px; padding: 5px 0; background: red; outline: none;margin: 10px auto;">Ver más</span>
                                 </td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
@@ -151,7 +155,7 @@
                                     F.P: 14/12/2017 
                                     F.V: 14/12/2017 
                                     F.C: 14/12/2017 
-                                    <span class="btn btn-hero" style=" width: 100px; height: 30px; padding: 5px 0; background: red; outline: none;margin: 10px auto;">Ver PDF</span>
+                                    <span class="btn btn-hero" style=" width: 100px; height: 30px; padding: 5px 0; background: red; outline: none;margin: 10px auto;">Ver más</span>
                                 </td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
@@ -163,7 +167,7 @@
                                     F.P: 14/12/2017 
                                     F.V: 14/12/2017 
                                     F.C: 14/12/2017 
-                                    <span class="btn btn-hero" style=" width: 100px; height: 30px; padding: 5px 0; background: red; outline: none;margin: 10px auto;">Ver PDF</span>
+                                    <span class="btn btn-hero" style=" width: 100px; height: 30px; padding: 5px 0; background: red; outline: none;margin: 10px auto;">Ver más</span>
                                 </td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
@@ -173,7 +177,7 @@
                         </tbody>
                     </table>
                 </div>
-            </div> 
+            </div>  
         </div>
         <div class="white"></div> 
     </div>

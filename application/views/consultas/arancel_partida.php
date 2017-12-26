@@ -8,193 +8,205 @@
         </div>
         <div class="row">
             <div class="col-sm-offset-1 col-sm-4">
-                <table class="table table-arancel">
-                    <thead>
-                        <tr>
-                            <th colspan="2">DESCRIPCIÓN</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>SECCION: VII</td>
-                            <td>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>CAPÍTULO</td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-                        </tr>
-                        <tr>
-                            <td>4010</td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-                        </tr>
-                        <tr>
-                            <td>401012</td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-                        </tr>
-                        <tr>
-                            <td>4010.12.00.00</td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-                        </tr>
-                        <tr>
-                            <td>OBSERVACIONES</td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div style="margin: 5px; padding: 5px; background-color: white">
+                    <table class="table table-arancel">
+                        <thead>
+                            <tr>
+                                <th colspan="2">DESCRIPCIÓN</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>SECCION: VII</td>
+                                <td>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>CAPÍTULO</td>
+                                <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
+                            </tr>
+                            <tr>
+                                <td>4010</td>
+                                <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
+                            </tr>
+                            <tr>
+                                <td>401012</td>
+                                <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
+                            </tr>
+                            <tr>
+                                <td>4010.12.00.00</td>
+                                <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
+                            </tr>
+                            <tr style="background-color: #f5f5f5;">
+                                <td>OBSERVACIONES</td>
+                                <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <div class="col-sm-6">
                 <div class="row">
                     <div class="col-xs-6 col-sm-6">
-                        <table class="table table-condensed table-arancel">
-                            <thead>
-                                <tr>
-                                    <th>GRAVÁMENES VIGENTES</th>
-                                    <th class="col-sm-1">VALOR</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Ad / Valorem</td>
-                                    <td>0 %</td>
-                                </tr>
-                                <tr>
-                                    <td>Impuesto Selectivo al Consumo</td>
-                                    <td>0 %</td>
-                                </tr>
-                                <tr>
-                                    <td>Impuesto General a las Ventas</td>
-                                    <td>16 %</td>
-                                </tr>
-                                <tr>
-                                    <td>Impuesto de Promoción Municipal</td>
-                                    <td>2 %</td>
-                                </tr>
-                                <tr>
-                                    <td>Derechos Especificos</td>
-                                    <td>No</td>
-                                </tr>
-                                <tr>
-                                    <td>Derechos Antidumping</td>
-                                    <td>N.A.</td>
-                                </tr>
-                                <tr>
-                                    <td>Seguro</td>
-                                    <td>1.5 %</td>
-                                </tr>
-                                <tr>
-                                    <td>Sobretasa</td>
-                                    <td>0 %</td>
-                                </tr>
-                                <tr>
-                                    <td>Unidad de Medida</td>
-                                    <td>KG</td>
-                                </tr>
-                                <tr>
-                                    <td>Arancel Básico</td>
-                                    <td>0 %</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div style="margin: 5px; padding: 5px; background-color: white">
+                            <table class="table table-condensed table-arancel">
+                                <thead>
+                                    <tr>
+                                        <th>GRAVÁMENES VIGENTES</th>
+                                        <th class="col-sm-1">VALOR</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><b>Ad / Valorem</b></td>
+                                        <td>0 %</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Impuesto Selectivo al Consumo</b></td>
+                                        <td>0 %</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Impuesto General a las Ventas</b></td>
+                                        <td>16 %</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Impuesto de Promoción Municipal</b></td>
+                                        <td>2 %</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Derechos Especificos</b></td>
+                                        <td>No</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Derechos Antidumping</b></td>
+                                        <td>N.A.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Seguro</b></td>
+                                        <td>1.5 %</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Sobretasa</b></td>
+                                        <td>0 %</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Unidad de Medida</b></td>
+                                        <td>KG</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Arancel Básico</b></td>
+                                        <td>0 %</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                     <div class="col-xs-6 col-sm-6">
-                        <table class="table table-arancel">
-                            <thead>
-                                <tr>
-                                    <th colspan="4">C.A.N. ANEXO</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>I</td>
-                                    <td><input type="checkbox"></td>
-                                    <td>V</td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>II</td>
-                                    <td><input type="checkbox"></td>
-                                    <td>VI</td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>III</td>
-                                    <td><input type="checkbox"></td>
-                                    <td>VII</td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>IV</td>
-                                    <td><input type="checkbox"></td>
-                                    <td>VIII</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div style="margin: 5px; padding: 5px; background-color: white">
+                            <table class="table table-arancel">
+                                <thead>
+                                    <tr>
+                                        <th colspan="4">C.A.N. ANEXO</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>I</td>
+                                        <td><input type="checkbox"></td>
+                                        <td>V</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>II</td>
+                                        <td><input type="checkbox"></td>
+                                        <td>VI</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>III</td>
+                                        <td><input type="checkbox"></td>
+                                        <td>VII</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>IV</td>
+                                        <td><input type="checkbox"></td>
+                                        <td>VIII</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                     <div class="col-xs-6 col-sm-6">
-                        <table class="table table-arancel">
-                            <thead>
-                                <tr>
-                                    <th colspan="2">ECUADOR</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>ANEXO I</td>
-                                    <td><input type="checkbox"></td>
-                                </tr>
-                                <tr>
-                                    <td>ANEXO II</td>
-                                    <td><input type="checkbox"></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div style="margin: 5px; padding: 5px; background-color: white">
+                            <table class="table table-arancel">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2">ECUADOR</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>ANEXO I</td>
+                                        <td><input type="checkbox"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>ANEXO II</td>
+                                        <td><input type="checkbox"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xs-6 col-sm-6">
-                        <table class="table table-arancel">
-                            <thead>
-                                <tr>
-                                    <th colspan="4">ACUERDO BILATERAL</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>BOLIVIA</td>
-                                    <td><input type="checkbox"></td>
-                                    <td>ECUADOR</td>
-                                    <td><input type="checkbox"></td>
-                                </tr>
-                                <tr>
-                                    <td>COLOMBIA</td>
-                                    <td><input type="checkbox"></td>
-                                    <td>VENEZUELA</td>
-                                    <td><input type="checkbox"></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div style="margin: 5px; padding: 5px; background-color: white">
+                            <table class="table table-arancel">
+                                <thead>
+                                    <tr>
+                                        <th colspan="4">ACUERDO BILATERAL</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>BOLIVIA</td>
+                                        <td><input type="checkbox"></td>
+                                        <td>ECUADOR</td>
+                                        <td><input type="checkbox"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>COLOMBIA</td>
+                                        <td><input type="checkbox"></td>
+                                        <td>VENEZUELA</td>
+                                        <td><input type="checkbox"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                     <div class="col-xs-6 col-sm-6">
-                        <table class="table table-arancel">
-                            <thead>
-                                <tr>
-                                    <th colspan="2">ZONA LIBRE COMERCIO</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>ANEXO A</td> 
-                                    <td><input type="checkbox"></td>
-                                </tr>
-                                <tr>
-                                    <td>ANEXO B</td> 
-                                    <td><input type="checkbox"></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div style="margin: 5px; padding: 10px; background-color: white">
+                            <table class="table table-arancel">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2">ZONA LIBRE COMERCIO</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>ANEXO A</td> 
+                                        <td><input type="checkbox"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>ANEXO B</td> 
+                                        <td><input type="checkbox"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>

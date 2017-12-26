@@ -46,27 +46,31 @@
                     </select>
                 </div>
             </div>
-            <div class="col-sm-offset-2 col-sm-2">
-                <div class="form-group">
-                    <label for="" class="control-label">Seleccionar tiempo</label>
-                    <div id="" class="input-group date" data-date-format="dd/mm/yyyy">
-                        <input id="" name="" type="text" class="form-control" placeholder="Desde" value=""/>
-                        <span class="input-group-addon">
-                            <span class="glyphicon glyphicon-calendar"></span>
-                        </span>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-sm-2">
-                <div class="form-group">
-                    <label for="" class="control-label"> </label>
-                    <div id="" class="input-group date" data-date-format="dd/mm/yyyy">
-                        <input id="" name="" type="text" class="form-control" placeholder="Hasta" value=""/>
-                        <span class="input-group-addon">
-                            <span class="glyphicon glyphicon-calendar"></span>
-                        </span>
+            <div class="col-sm-offset-2 col-sm-4">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="" class="control-label">Seleccionar periodo</label>
+                            <div id="" class="input-group date" data-date-format="dd/mm/yyyy">
+                                <input id="" name="" type="text" class="form-control" placeholder="Desde" value=""/>
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div> 
+                        </div>
                     </div>
-                </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="" class="control-label">&nbsp;</label>
+                            <div id="" class="input-group date" data-date-format="dd/mm/yyyy">
+                                <input id="" name="" type="text" class="form-control" placeholder="Hasta" value=""/>
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
             </div>
             <div class="col-sm-4">
                 <div class="form-group">
@@ -116,7 +120,7 @@
                         </thead>
                         <tbody>
                             <tr style="cursor: pointer;">
-                                <td style="color: red;">010101</td>
+                                <td><a style="color: red;" href="<?php echo base_url(); ?>consultas_en_linea/arancel_partida/4010120000">4010120000</a></td>
                                 <td>CORTAPERNOS TUBULAR 18"</td>
                                 <td>WOLFOX</td>
                                 <td>WF623</td>
@@ -135,7 +139,7 @@
                                 </td>
                             </tr>
                             <tr style="cursor: pointer;">
-                                <td style="color: red;">010101</td>
+                                <td><a style="color: red;" href="<?php echo base_url(); ?>consultas_en_linea/arancel_partida/4010120000">4010120000</a></td>
                                 <td>CORTAPERNOS TUBULAR 18"</td>
                                 <td>WOLFOX</td>
                                 <td>WF623</td>
@@ -154,7 +158,7 @@
                                 </td>
                             </tr>
                             <tr style="cursor: pointer;">
-                                <td style="color: red;">010101</td>
+                                <td><a style="color: red;" href="<?php echo base_url(); ?>consultas_en_linea/arancel_partida/4010120000">4010120000</a></td>
                                 <td>CORTAPERNOS TUBULAR 18"</td>
                                 <td>WOLFOX</td>
                                 <td>WF623</td>
