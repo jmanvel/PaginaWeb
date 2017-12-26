@@ -97,7 +97,7 @@
                                         <a href="<?php echo base_url(); ?>Nosotros">NOSOTROS</a>
                                     </li>
                                     <li>
-                                        <a href="#">NOTICIAS</a>
+                                        <a href="<?php echo base_url(); ?>noticias">NOTICIAS</a>
                                     </li>
                                     <li >
                                         <a href="<?php echo base_url(); ?>contacto">CONTACTO</a>
