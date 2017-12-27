@@ -928,3 +928,11 @@ input, button, select, textarea {
 .v-resize {
     resize: vertical;
 }
+
+.noticia-last {
+    width: 32% !important;
+}
+
+.noticia-otros {
+    width: 21% !important;
+}
