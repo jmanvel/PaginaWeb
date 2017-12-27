@@ -20,11 +20,12 @@
             <div class="col-sm-1"></div>
             <div class="col-sm-10">
                 <div class="col-sm-12">
-                    <div class="col-sm-4 cursor" style="margin-top: -197px">
+                    <div class="col-sm-4 cursor" style="margin-top: -220px">
                         <div class="col-sm-12 services">
-                            <div class="row" style="margin-top: 45px" class="valoragregado">
+                            <div class="row" style="margin-top: 70px; margin-left: -35px" class="valoragregado">
                                 <div class="col-sm-2"></div>
-                                <div class="col-sm-10" id="servicios"><span id="sce" style="font-size: 30px; font-weight: bold;">PRODUCTOS DE <br>VALOR AGREADO</span>
+                                <div class="col-sm-10" id="servicios">
+                                    <span id="sceprod" style="font-size: 30px; font-weight: bold;">PRODUCTOS DE <br>VALOR AGREADO</span>
                                 </div>
                             </div>
                         </div>
@@ -65,8 +66,8 @@
             <div class="col-sm-10">
                 <div class="row">
                     <div class="col-sm-6">
-                        <div class="col-sm-11" style="background: #fff;margin-left: 26px">
-                            <div class="row" style="margin-top: 80px; padding-bottom: 80px" >
+                        <div class="col-sm-12" style="background: #fff;">
+                            <div class="row" style="margin-top: 30px; padding-bottom: 75px" >
                                 <div class="col-sm-1"></div>
                                 <div class="col-sm-10">
                                     <h3 style="color: #4f8f45"> <strong>REPORTEADOR </strong></h3><br>
@@ -79,8 +80,8 @@
                         </div>
                     </div>
                     <div class="col-sm-6">
-                        <div class="col-sm-11" style="background: #fff; margin-left: 26px">
-                            <div class="row" style="margin-top: 80px;  padding-bottom: 35px" >
+                        <div class="col-sm-12" style="background: #fff; ">
+                            <div class="row" style="margin-top: 30px;  padding-bottom: 25px" >
                                 <div class="col-sm-1"></div>
                                 <div class="col-sm-10">
                                     <h3 style="color: #4f8f45"> <strong>IMPRESI&Oacute;N REMOTA</strong></h3><br>
@@ -102,8 +103,8 @@
             <img src="<?php echo base_url() ?>assets/img/valoragregado.jpg" style="margin-left: -15px; width: 100%">
         </div>
         <div class="container">
-            <div class="col-sm-6" style="text-align: justify;margin-top: 120px; margin-left: 10px">
-                <div class="col-sm-12" style="margin-left: 2%; max-width: 99%">
+            <div class="col-sm-7" style="text-align: justify;margin-top: 155px; margin-left: 10px">
+                <div class="col-sm-11" style="margin-left: 2%; max-width: 99%">
                     <h2 style="color: #4f8f45"> <strong>NUBE INFORMATICA</strong></h2>
                     <p style="font-size: 17px">En SINTAD ponemos a disposici&oacute;n de todos nuestros clientes la nueva tecnolog&iacute;a de informaci&oacute;n denominada nube inform&aacute;tica 
                         que consta de 2 servicios dedicados que nos garantizan servicios las 24 horas los 365 d&iacute;as del a&ntilde;o adem&aacute;s de la alta performance y seguridad para sus conexiones por 
@@ -169,7 +170,7 @@
                     <div class="overlay_wrapper" style="margin-left: 20px">
                         <div class="overlay_fade">
                             <a href="videos/video-01.html?lightbox[width]=610&amp;lightbox[height]=360&amp;lightbox[modal]=true" class="lightbox"><div class="overlay_zoom zoom_white"></div>
-                                <img  src="<?php echo base_url() ?>assets/img/video-06.jpg" height="100%" style="alignment-adjust: central">
+                                <img  src="<?php echo base_url() ?>assets/img/video-06.jpg" height="100%" width="100%" style="alignment-adjust: central">
                             </a>
                         </div>
 

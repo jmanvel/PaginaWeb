@@ -20,11 +20,12 @@
             <div class="col-sm-1"></div>
             <div class="col-sm-10">
                 <div class="col-sm-12">
-                    <div class="col-sm-4 cursor" onclick="productos('carga.php')" style="margin-top: -197px">
+                    <div class="col-sm-4 cursor" style="margin-top: -220px">
                         <div class="col-sm-12 services">
-                            <div class="row" style="margin-top: 80px; margin-left: 20px">
-                                <div class="col-sm-2"></div>
-                                <div class="col-sm-10" id="servicios"><span id="sce">SCE</span><span id="scesistema">ADUANAS</span> 
+                            <div class="row" style="margin-top: 65px; margin-left: 0px">
+                                <div class="col-sm-offset-1 col-sm-10" id="servicios">
+                                    <span id="sceprod" >SCE</span>
+                                    <span id="scesistemaprod">ADUANAS</span> 
                                 </div>
                             </div>
                         </div>
@@ -71,13 +72,13 @@
             </div>
             <div class="col-sm-1"></div>
         </div>
-        <div class="row" style="margin-top: 50px">
+        <div class="container" style="margin-top: 50px">
             <div class="col-sm-1"></div>
             <div class="col-sm-10">
                 <div class="row">
                     <div class="col-sm-6">
-                        <div class="col-sm-11" style="background: #fff;margin-left: 26px">
-                            <div class="row" style="margin-top: 80px; padding-bottom: 80px" >
+                        <div class="col-sm-12" style="background: #fff;">
+                            <div class="row" style="margin-top: 40px; padding-bottom: 40px" >
                                 <div class="col-sm-1"></div>
                                 <div class="col-sm-10">
                                     <h3 style="color: #0177b4"> <strong>SCE ADUANAS </strong>-<BR> Autoseguimiento de DAM</h3><br>
@@ -91,11 +92,11 @@
                         </div>
                     </div>
                     <div class="col-sm-6">
-                        <div class="col-sm-11" style="background: #fff; margin-left: 26px">
-                            <div class="row" style="margin-top: 80px; padding-bottom: 130px" >
+                        <div class="col-sm-12" style="background: #fff; ">
+                            <div class="row" style="margin-top: 60px; padding-bottom: 70px" >
                                 <div class="col-sm-1"></div>
                                 <div class="col-sm-10">
-                                    <h3 style="color: #0177b4"> <strong>SCE CARGA </strong>- Tracking Online</h3><br>
+                                    <h3 style="color: #0177b4"> <strong>SCE ADUANAS </strong>- Tracking Online</h3><br>
                                     <p style="text-align: justify; font-size: 17px;">Aplicativo que se incorpora en la web de nuestro cliente para que su cliente (Importador o Exportador) pueda acceder al estado de los procesos del embarque, 
                                         el seguimiento de la traves&iacute;a de la mercanc&iacute;a, nacionalizaci&oacute;n en el puerto destino, transporte local y gesti&oacute;n en el almac&eacute;n.
                                     </p>
@@ -108,8 +109,8 @@
                 </div>
                 <div class="row" style="margin-top: 30px">
                     <div class="col-sm-6">
-                        <div class="col-sm-11" style="background: #fff;margin-left: 26px">
-                            <div class="row" style="margin-top: 80px; padding-bottom: 80px" >
+                        <div class="col-sm-12" style="background: #fff;">
+                            <div class="row" style="margin-top: 68px; padding-bottom: 68px" >
                                 <div class="col-sm-1"></div>
                                 <div class="col-sm-10">
                                     <h3 style="color: #0177b4"> <strong>SCE ADUANAS </strong>-<BR> Aranceles y sus Acuerdos Comerciales</h3><br>
@@ -122,11 +123,11 @@
                         </div>
                     </div>
                     <div class="col-sm-6">
-                        <div class="col-sm-11" style="background: #fff; margin-left: 26px">
-                            <div class="row" style="margin-top: 80px; padding-bottom: 130px" >
+                        <div class="col-sm-12" style="background: #fff;">
+                            <div class="row" style="margin-top: 93px; padding-bottom: 93px" >
                                 <div class="col-sm-1"></div>
                                 <div class="col-sm-10">
-                                    <h3 style="color: #0177b4"> <strong>SCE CARGA </strong>- Tele P&oacute;liza</h3><br>
+                                    <h3 style="color: #0177b4"> <strong>SCE ADUANAS </strong>- Tele P&oacute;liza</h3><br>
                                     <p style="text-align: justify; font-size: 17px;">Funci&oacute;n que lee informaci&oacute; de DAM registradas a trav&eacute;s de cualquier software existente en el mercado peruano y as&iacute;
                                         de manera f&aacute;cil y sencilla transmite dicha informaci&oacute;n hacia nuestro sistema.
                                     </p>
@@ -139,7 +140,7 @@
                 </div>
                 <div class="row" style="margin-top: 30px">
                     <div class="col-sm-12">
-                        <div class="col-sm-11" style="background: #fff;margin-left: 26px; width: 96%">
+                        <div class="col-sm-12" style="background: #fff;">
                             <div class="row" style="margin-top: 80px; padding-bottom: 80px" >
                                 <div class="col-sm-1"></div>
                                 <div class="col-sm-10">
@@ -162,8 +163,8 @@
             <img src="<?php echo base_url(); ?>assets/img/carga.jpg" style="margin-left: -15px; width: 100%">
         </div>
         <div class="container">
-            <div class="col-sm-6" style="text-align: justify;margin-top: 120px; margin-left: 10px">
-                <div class="col-sm-12" style="margin-left: 2%; max-width: 99%">
+            <div class="col-sm-7" style="text-align: justify;margin-top: 270px; margin-left: 10px">
+                <div class="col-sm-11" style="margin-left: 2%; max-width: 99%">
                     <h2 style="color: #0177b4"> <strong>SCE </strong>- Provisiones</h2>
                     <p style="font-size: 17px">Sistema orientado a la gesti&oacute;n, provisi&oacute;n y administraci&oacute;n del registro de ventas originando consecuentemente las cuentas por cobrar clientes;
                         adem&aacute;s de la transferencia de los comprobantes de pago electr&oacute;nicos al ente recaudador (Sunat). Incluye el aplicativo SCE-Doctel; emisi&oacute;n 
@@ -234,7 +235,7 @@
                     <div class="overlay_wrapper" style="margin-left: 20px">
                         <div class="overlay_fade">
                             <a href="videos/video-01.html?lightbox[width]=610&amp;lightbox[height]=360&amp;lightbox[modal]=true" class="lightbox"><div class="overlay_zoom zoom_white"></div>
-                                <img  src="<?php echo base_url(); ?>assets/img/video-02.jpg" height="100%" style="alignment-adjust: central">
+                                <img  src="<?php echo base_url(); ?>assets/img/video-02.jpg" height="100%" width="100%" style="alignment-adjust: central">
                             </a>
                         </div>
 
