@@ -20,11 +20,13 @@
                     <div class="col-sm-1"></div>
                     <div class="col-sm-10">
                         <div class="col-sm-12">
-                            <div class="col-sm-4 cursor" onclick="productos('carga.php')" style="margin-top: -197px">
+                            <div class="col-sm-4 cursor"  style="margin-top: -220px">
                                 <div class="col-sm-12 services">
-                                    <div class="row" style="margin-top: 80px; margin-left: 20px">
+                                    <div class="row" style="margin-top: 65px; margin-left: -30px">
                                         <div class="col-sm-2"></div>
-                                        <div class="col-sm-10" id="servicios"><span id="sce">SCE</span><span id="scesistema">ALMACEN</span> 
+                                        <div class="col-sm-10" id="servicios">
+                                            <span id="sceprod">SCE</span>
+                                            <span id="scesistemaprod">ALMACEN</span> 
                                         </div>
                                     </div>
                                 </div>
@@ -66,8 +68,8 @@
                     <img src="<?php echo base_url(); ?>assets/img/carga.jpg" style="margin-left: -15px; width: 100%">
                 </div>
                 <div class="container">
-                    <div class="col-sm-6" style="text-align: justify;margin-top: 120px; margin-left: 10px">
-                        <div class="col-sm-12" style="margin-left: 2%; max-width: 99%">
+                    <div class="col-sm-7" style="text-align: justify;margin-top: 285px; margin-left: 10px">
+                        <div class="col-sm-11" style="margin-left: 2%; max-width: 99%">
                             <h2 style="color: #00a6d2"> <strong>SCE </strong>- Provisiones</h2>
                             <p style="font-size: 17px">Sistema orientado a la gesti&oacute;n, provisi&oacute;n y administraci&oacute;n del registro de ventas originando consecuentemente las cuentas por cobrar clientes;
                                 adem&aacute;s de la transferencia de los comprobantes de pago electr&oacute;nicos al ente recaudador (Sunat). Incluye el aplicativo SCE-Doctel; emisi&oacute;n 
@@ -138,7 +140,7 @@
                             <div class="overlay_wrapper" style="margin-left: 20px">
                                 <div class="overlay_fade">
                                     <a href="videos/video-03.html?lightbox[width]=610&amp;lightbox[height]=360&amp;lightbox[modal]=true" class="lightbox"><div class="overlay_zoom zoom_white"></div>
-                                        <img src="<?php echo base_url(); ?>assets/img/video-04.jpg" height="100%" style="alignment-adjust: central">
+                                        <img src="<?php echo base_url(); ?>assets/img/video-04.jpg" height="100%" width="100%" style="alignment-adjust: central">
                                     </a>
                                 </div>
 

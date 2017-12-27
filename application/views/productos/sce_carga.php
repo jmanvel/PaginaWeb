@@ -25,8 +25,8 @@
                             <div class="row" style="margin-top: 65px; margin-left: 10px">
                                 <div class="col-sm-1"></div>
                                 <div class="col-sm-10" id="servicios">
-                                    <span id="sce" style="font-size: 80px">SCE</span>
-                                    <span id="scesistema" style="font-size: 20px;vertical-align: 20px">CARGA</span> 
+                                    <span id="sceprod">SCE</span>
+                                    <span id="scesistemaprod">CARGA</span> 
                                 </div>
                             </div>
                         </div>
@@ -76,12 +76,12 @@
             </div>
             <div class="col-sm-1"></div>
         </div>
-        <div class="row" style="margin-top: 50px">
+        <div class="container" style="margin-top: 50px">
             <div class="col-sm-1"></div>
             <div class="col-sm-10">
                 <div class="row">
                     <div class="col-sm-6">
-                        <div class="col-sm-11" style="background: #fff;margin-left: 26px">
+                        <div class="col-sm-12" style="background: #fff;">
                             <div class="row" style="margin-top: 50px; padding-bottom: 50px" >
                                 <div class="col-sm-1"></div>
                                 <div class="col-sm-10">
@@ -96,8 +96,8 @@
                         </div>
                     </div>
                     <div class="col-sm-6">
-                        <div class="col-sm-11" style="background: #fff; margin-left: 26px">
-                            <div class="row" style="margin-top: 50px; padding-bottom: 100px" >
+                        <div class="col-sm-12" style="background: #fff;">
+                            <div class="row" style="margin-top: 50px; padding-bottom: 75px" >
                                 <div class="col-sm-1"></div>
                                 <div class="col-sm-10">
                                     <h3 style="color: #e5691f"> <span style="font-family: MyriadPro-Bold;">SCE CARGA</span>- Tracking Online</h3><br>
@@ -119,8 +119,8 @@
             <img src="/PaginaWeb/assets/img/carga.jpg" style="margin-left: -15px; width: 100%">
         </div>
         <div class="container">
-            <div class="col-sm-6" style="text-align: justify;margin-top: 145px; margin-left: 10px">
-                <div class="col-sm-12" style="margin-left: 2%; max-width: 99%">
+            <div class="col-sm-7" style="text-align: justify;margin-top: 270px; margin-left: 10px">
+                <div class="col-sm-11" style="margin-left: 2%; max-width: 99%">
                     <h2 style="color: #e5691f"> <span style="font-family: MyriadPro-Bold;">SCE </span>- Provisiones</h2>
                     <p style="font-size: 17px">Sistema orientado a la gesti&oacute;n, provisi&oacute;n y administraci&oacute;n del registro de ventas originando consecuentemente las cuentas por cobrar clientes;
                         adem&aacute;s, de la transferencia de los comprobantes de pago electr&oacute;nicos al ente recaudador (SUNAT). Incluye el aplicativo SCE-Doctel; emisi&oacute;n 
@@ -190,7 +190,7 @@
                     <div class="overlay_wrapper" style="margin-left: 20px">
                         <div class="overlay_fade">
                             <a href="videos/video-01.html?lightbox[width]=610&amp;lightbox[height]=360&amp;lightbox[modal]=true" class="lightbox"><div class="overlay_zoom zoom_white"></div>
-                                <img  src="/PaginaWeb/assets/img/video-01.jpg" height="100%" style="alignment-adjust: central">
+                                <img  src="/PaginaWeb/assets/img/video-01.jpg" height="100%" width="100%" style="alignment-adjust: central">
                             </a>
                         </div>
 
