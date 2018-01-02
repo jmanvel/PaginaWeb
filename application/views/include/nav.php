@@ -67,7 +67,9 @@
                                                         <a href="<?php echo base_url(); ?>consultas_en_linea/boletines_quimicos">Boletines Quimicos</a>
                                                     </li>
                                                     <li class="submenu">
-                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/ley_reglamento_lga">Ley / Reglamento LGA</a>
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/ley_lga">Ley </a>
+                                                        /
+                                                        <a href="<?php echo base_url(); ?>consultas_en_linea/reglamento_lga">Reglamento LGA</a>
                                                     </li>
                                                     <li class="submenu">
                                                         <a href="<?php echo base_url(); ?>consultas_en_linea/resoluciones_arancelarias">Resoluciones Arancelarias</a>

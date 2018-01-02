@@ -88,4 +88,34 @@ class Consultas_en_linea extends CI_Controller {
         $this->load->view("include/footer");
     }
 
+    public function ley_lga() {
+        $data["titulo"] = "LEY GRAL. DE ADUANAS";
+        $data["archivo"] = "LeyGralDeAduana";
+        $this->load->view("include/head");
+        $this->load->view("include/nav");
+        $this->load->view("include/fecha_cambio");
+        $this->load->view("pdf", $data);
+        $this->load->view("include/footer");
+    }
+
+    public function reglamento_lga() {
+        $data["titulo"] = "REGLAMENTO DE LGA";
+        $data["archivo"] = "ReglamentoDeLaLeyGralDeAduana";
+        $this->load->view("include/head");
+        $this->load->view("include/nav");
+        $this->load->view("include/fecha_cambio");
+        $this->load->view("pdf", $data);
+        $this->load->view("include/footer");
+    }
+
+    public function instructivo_dam() {
+        $data["titulo"] = "Instructivo DAM";
+        $data["archivo"] = "InstructivoLlenadoDUA";
+        $this->load->view("include/head");
+        $this->load->view("include/nav");
+        $this->load->view("include/fecha_cambio");
+        $this->load->view("pdf", $data);
+        $this->load->view("include/footer");
+    }
+
 }
