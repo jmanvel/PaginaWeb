@@ -189,7 +189,7 @@
                 <div class="col-sm-10">
                     <div class="overlay_wrapper" style="margin-left: 20px">
                         <div class="overlay_fade">
-                            <a href="videos/video-01.html?lightbox[width]=610&amp;lightbox[height]=360&amp;lightbox[modal]=true" class="lightbox"><div class="overlay_zoom zoom_white"></div>
+                            <a href="#myModal" data-toggle="modal" class="lightbox"><div class="overlay_zoom zoom_white"></div>
                                 <img  src="/PaginaWeb/assets/img/video-01.jpg" height="100%" width="100%" style="alignment-adjust: central">
                             </a>
                         </div>
@@ -203,3 +203,16 @@
         </div>
     </div>
 </div>
+<div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">SCE Carga</h4>
+                </div>
+                <div class="modal-body">
+                    <iframe width="100%" height="500px" src="https://www.youtube.com/embed/fBmMUn7K_04?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>

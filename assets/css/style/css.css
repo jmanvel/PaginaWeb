@@ -32,6 +32,14 @@ body {
     margin: 10px;
 }
 
+.bs-example{
+    margin: 20px;
+}
+.modal-content iframe{
+    margin: 0 auto;
+    display: block;
+}
+
 a {
     color: #5f5f5f;
 }
@@ -98,7 +106,13 @@ a:hover {
     color: #fff; 
     font-size: 30px;
     margin-top: 110px; 
-    text-align: center
+    text-align: center;
+    font-family: myriadroman; 
+    font-size: 40px
+}
+
+.conectamosDiv{
+    margin-top: -20px;
 }
 
 .gray {
@@ -108,6 +122,10 @@ a:hover {
 
 .valoragregado{
     margin-top: 55px
+}
+
+.doctel{
+    margin-top: 10px
 }
 
 .cursor{
@@ -129,7 +147,10 @@ a:hover {
     src: url('fonts/MyriadPro-It.otf');
 }
 
-
+#sce2 {
+    font-size: 55px;
+    margin-top: 25px
+}
 
 .dropdown-menu {
     left: 0 !important;
@@ -254,6 +275,7 @@ body:not(.glyphicon) {
 .red3 {
     background-color: #e22f22;
     height: 10px;
+    margin-bottom: 10px;
     width: 100%;
 }
 
@@ -266,6 +288,11 @@ body:not(.glyphicon) {
 #servicios{
     font-weight: bold;
     font-family: MyriadPro-Bold
+}
+
+.valoragregadodiv {
+    margin-top: 15px; 
+    margin-left: 10px
 }
 
 #sce {
@@ -546,7 +573,7 @@ body:not(.glyphicon) {
 
 .nostros{
     background: #afafaf; 
-    height: 475px
+    /*height: 475px*/
 }
 
 #nosotrosdiv{
@@ -565,12 +592,13 @@ body:not(.glyphicon) {
 
 .vision{
     background: #fff; 
-    height: 504px
+    /*height: 504px*/
 }
 
 #visionImg{
     background-image: url(/PaginaWeb/assets/img/vision2.jpg);
     height: 100%;
+    background-position: center;
     background-size: cover;
 }
 
@@ -582,8 +610,7 @@ body:not(.glyphicon) {
 
 #topVisionMision{
     margin-top: 100px;
-    margin-left: 25px
-        
+    /*margin-left: 25px*/ 
 }
 
 .imgvalor{
@@ -688,6 +715,9 @@ body:not(.glyphicon) {
     background: #e22f22;
 }
 
+.xs-vision {
+    margin-top: 50px
+}
 
 .myModalLabel, h4, .h4 {
     /*font-size: 30px;*/
@@ -719,13 +749,14 @@ body:not(.glyphicon) {
         width: 1200px;
     }
     .navbar-nav > li {
-        float: left;
+        /*float: left;*/
         margin: -5px;
     }
-    /*    .logo_content {
-            margin-top: -30px;
-            margin-left: 380px;
-        }*/
+
+    /*        .logo_content {
+                margin-top: -30px;
+                margin-left: 380px;
+            }*/
 }
 
 @media (max-width: 1200px) {
@@ -733,7 +764,7 @@ body:not(.glyphicon) {
         width: 100%;
         font-size: 13px; 
     }
-    
+
     .imglogo{
         height: 50px; width: 103px;  
     }
@@ -741,7 +772,7 @@ body:not(.glyphicon) {
         margin: -4px;
     }
     .navbar-nav > li {
-        float: left;
+        /*float: left;*/
         margin: -4px;
     }
     /*    .logo_content {
@@ -753,11 +784,15 @@ body:not(.glyphicon) {
         margin-top: 6px;
     }
     h4, .h4 {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     #visionImg{
         display: block;
+    }
+
+    .xs-vision {
+        margin-top: 50px
     }
 }
 
@@ -777,7 +812,7 @@ body:not(.glyphicon) {
         display: none;
     }
     h4, .h4 {
-        font-size: 15px;
+        font-size: 12px;
     }
     #nosotrosdiv {
         margin-top: 30px;
@@ -790,7 +825,7 @@ body:not(.glyphicon) {
 
 @media (max-width: 767px) {
     .logo_content {
-        margin-top: -33px;
+        margin-top: -18px;
         margin-left: 0px;
     }
 
@@ -818,6 +853,7 @@ body:not(.glyphicon) {
         font-weight: bold;
         margin-top: 35px;
         text-align: center;
+        margin-top: 70px
     }
 
     .navbar-inverse .navbar-toggle {
@@ -826,15 +862,13 @@ body:not(.glyphicon) {
     }
 
     .navbar-right {
-        float: left !important;
+        /*float: left !important;*/
         margin-right: 0px;
         width: 100%;
     }
 
-    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
-    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #e22f22;
-        background-color: transparent;
+    .navbar-inverse .navbar-nav > li > a {
+        color: #fff;
     }
 
     .navbar-inverse .navbar-toggle:hover,
@@ -848,9 +882,12 @@ body:not(.glyphicon) {
         width: 100%;
     }
 
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        border-color: #fff;
+    }
+
     .footer{
         background-color: #211f20;
-        height: 615px;
         width: 100%;
     }
     .cambio{
@@ -858,30 +895,84 @@ body:not(.glyphicon) {
     }
 
     #visionImg{
-        display: none;
+        display: block;
+    }
+
+    .xs-vision {
+        margin-top: 10px;
     }
 
     #misionImg{
-        display: none;
+        display: block;
     }
 
     #topVisionMision{
-        margin-top: 25px
+        margin-top: 25px;
+        margin-bottom: 27px;
     }
 
     .vision{
-        height: 250px;
+        /*height: 250px;*/
     }
 
     .valores{
+        /*margin-top: 50px;*/
         height: 140%;
     }
     #mapa{
         display: none
     }
-    
+
     #footer_productos{
         display: none;
+    }
+
+    .navbar-inverse .navbar-nav > li > a:hover,
+    .navbar-inverse .navbar-nav > li > a:focus {
+        color: #fff;
+    }
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        background: red none repeat scroll 0 0;
+        border-color: #fff;
+        height: 350px;
+    }
+
+    #productosSnt{
+        display: none;
+    }
+
+    #sce {
+        font-size: 55px;
+        margin-top: 25px
+    }
+
+
+
+    .valoragregadodiv{
+        margin-top: 60px;
+    }
+
+    .doctel{
+        margin-top: 70px;
+    }
+
+    #scesistema {
+        font-family: myriadroman;
+        vertical-align: 14px;
+        margin-top: 25px;
+    }
+
+    h1, .h1 {
+        font-size: 25px;
+    }
+
+    .conectamosDiv{
+        margin-top: -20px;
+    }
+
+    .redes{
+        cursor: pointer;
+        margin: 65px 5px 5px;
     }
 }
 
@@ -895,21 +986,68 @@ body:not(.glyphicon) {
     }
 
     #visionImg{
-        display: none;
+        display: block;
+        /*max-width: 100px;*/
+        /*max-height: 100px;*/
     }
 
+    .vision{
+        /*height: 190px;*/
+    }
+
+
     #misionImg{
-        display: none;
+        display: block;
+        height: 200px;
+    }
+    .xs-vision {
+        margin-top: 10px;
     }
 
     .valores{
+        /*margin-top: 50px;*/
         height: 160%;
     }
-    
+
+    .valores-title{
+        font-size: 21px;
+    }
+
     #footer_productos{
         display: none;
     }
 
+    #productosSnt{
+        display: none;
+    }
+
+    .redes{
+        cursor: pointer;
+        margin: 65px 5px 5px;
+    }
+
+    .valoragregadodiv {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .doctel{
+        margin-top: 70px;
+        font-size: 35px;
+    }
+
+    .doctel{
+        margin-top: 70px;
+    }
+
+    #sce {
+        font-size: 40px;
+        margin-top: 25px;
+    }
+
+    #sce2 {
+        font-size: 30px;
+        margin-top: 25px
+    }
 }
 
 .nowrap td, 
@@ -979,4 +1117,12 @@ input, button, select, textarea {
 
 .noticia-otros {
     width: 21% !important;
+}
+
+.row {
+    margin: 0;
+}
+
+.div-img {
+    padding: 0;
 }

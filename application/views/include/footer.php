@@ -15,7 +15,7 @@
                 <a href="<?php echo base_url();?>productos/sce_doctel"><p>SCE DOCTEL</p></a>
                 <a href="<?php echo base_url();?>productos/productos_de_valor_agregado"><p>PRODUCTOS DE VALOR AGREGADO</p></a>
             </div>
-            <div class="col-sm-1"></div>
+            <div class="col-sm-1 col-xs-2"></div>
             <div class="col-sm-4 col-xs-5">
                 <a href="<?php echo base_url();?>contacto" id="footer_productos"><h4 style="margin-top: 40px; font-weight: bold;">CONT&Aacute;CTOS</h4></a>
                 <p style="" id="footer_productos">Pasaje Parque San Carlos 271 - 275<br>Entre la cuadra 14 y 15 de la Av. Bolivar, Pueblo Libre</p>
