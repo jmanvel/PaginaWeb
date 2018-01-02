@@ -15,7 +15,7 @@
                                     <span class="icon-bar"></span>
                                 </button>
                                 <a class="navbar-brand" href="<?php echo base_url(); ?>"><div class="logo_content">
-                                        <img src="<?php echo base_url(); ?>assets/img/logo/logo.jpg" alt="logo"/>
+                                        <img src="<?php echo base_url(); ?>assets/img/logo/logo.jpg" alt="logo" class="imglogo"/>
                                     </div>
                                 </a>
                             </div>

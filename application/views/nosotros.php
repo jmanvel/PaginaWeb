@@ -33,7 +33,8 @@
     <div class="col-sm-2"></div>
     <div class="col-sm-4">
         <div class="row" id="topVisionMision">
-            <div class="col-sm-12">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-11" >
                 <h1 style="font-family: MyriadPro-Bold;">VISI&Oacute;N</h1>
                 <div class="row">
                     <div class="col-sm-5">
@@ -60,7 +61,7 @@
     <div class="col-sm-1"></div>
     <div class="col-sm-4">
         <div class="row" id="topVisionMision">
-            <div class="col-sm-12">
+            <div class="col-sm-10">
                 <h1 style="font-family: MyriadPro-Bold; text-align: right">MISI&Oacute;N</h1>
                 <div class="row">
                     <div class="col-sm-7"></div>
@@ -72,8 +73,8 @@
                 <div class="row" style="margin-top: 50px">
                     <div class="col-sm-12">
                         <h4 style="text-align: justify">
-                            SINTAD busca internacionalizar y consolidar sus servicios informáticos, respaldados en la calidad de un equipo 
-                            humano de primer nivel que brinda soluciones efectivas en los procesos del comercio internacional.
+                            Velamos por la satisfacción plena de nuestros clientes, ofreciendo calidad, eficiencia, confiabilidad y seguridad con elevados estándares, 
+                            además de rigurosos procesos de control en todos nuestros servicios.
                         </h4>
                     </div>
                 </div>
