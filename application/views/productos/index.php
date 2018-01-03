@@ -37,7 +37,7 @@
         <div class="col-sm-1"></div>
         <div class="col-sm-10" style="background: #e7e7e7; height: 175px">
             <!--<div class="row">-->
-            <div class="col-sm-4">
+            <div class="col-xs-6 col-sm-4">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-10 services cursor animated" animate="pulse" style="margin: -25px 0; border-bottom: 20px solid #e5691f;" onclick="productos('sce_carga')">
                     <div class="row" style="margin: 67px 0">
@@ -49,12 +49,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4" style="margin-top: 30px">
+            <div class="col-xs-6 col-sm-4" style="margin-top: 30px">
                 <h4 style="font-family: MyriadPro-It;">Software de Comercio Exterior para</h4>
                 <h4 style="font-weight: bold;">AGENCIAS DE CARGA INTERNACIONAL</h4>
                 <p style="text-align: justify; font-family: MyriadPro-It; font-size: 12px;">Especializado y diseñado exclusivamente para cubrir las necesidades integrales de la operatividad de los Agente de Carga Internacional.</p>
             </div>
-            <div class="col-sm-offset-1 col-sm-3" style="text-align: left; margin-top: 50px">
+            <div class="col-xs-6 col-sm-offset-1 col-sm-3" style="text-align: left; margin-top: 50px">
                 <button class="btn btn-hero btn-lg redVermas" role="button">Ver más</button>
             </div>
         </div> 
