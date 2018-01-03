@@ -15,12 +15,12 @@
                                     <span class="icon-bar"></span>
                                 </button>
                                 <a class="navbar-brand" href="<?php echo base_url(); ?>"><div class="logo_content">
-                                        <img src="<?php echo base_url(); ?>assets/img/logo/logo.jpg" alt="logo"/>
+                                        <img src="<?php echo base_url(); ?>assets/img/logo/logo.jpg" alt="logo" class="imglogo"/>
                                     </div>
                                 </a>
                             </div>
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <ul id="options" class="nav navbar-nav pull-right animated" animate="bounceInLeft"> 
+                                <ul id="options" class="nav navbar-nav animated" animate="bounceInLeft"> 
                                     <li class="dropdown"> 
                                         <a href="<?php echo base_url(); ?>productos">PRODUCTOS<b class="caret"> </b></a> 
                                         <ul class="dropdown-menu">  
@@ -96,7 +96,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="<?php echo base_url(); ?>Nosotros">NOSOTROS</a>
+                                        <a href="<?php echo base_url(); ?>nosotros">NOSOTROS</a>
                                     </li>
                                     <li>
                                         <a href="<?php echo base_url(); ?>noticias">NOTICIAS</a>

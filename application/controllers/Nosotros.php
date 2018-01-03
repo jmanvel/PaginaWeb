@@ -17,7 +17,7 @@ class Nosotros extends CI_Controller {
         $this->load->view("include/nav");
         $this->load->view("include/fecha_cambio");
         $this->load->view("nosotros");
-        $this->load->view("include/clientes");
+//        $this->load->view("include/clientes");
         $this->load->view("include/footer");
     }
 

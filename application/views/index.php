@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col-sm-1"></div>
                 <div class="col-sm-10">
-                    <div class="col-sm-4 cursor animated" animate="pulse" onclick="productos('sce_carga')">
+                    <div class="col-sm-4  cursor animated" animate="pulse" onclick="productos('sce_carga')">
                         <div class="col-sm-12 services">
                             <div class="row" style="margin-top: 45px">
                                 <div class="col-sm-2"></div>
@@ -43,7 +43,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 cursor animated" animate="pulse" onclick="productos('sce_aduanas')">
+                    <div class="col-sm-4  cursor animated" animate="pulse" onclick="productos('sce_aduanas')">
                         <div class="col-sm-12 services">
                             <div class="row" style="margin-top: 45px">
                                 <div class="col-sm-2"></div>
@@ -59,7 +59,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 cursor animated" animate="pulse" onclick="productos('sce_transporte')">
+                    <div class="col-sm-4  cursor animated" animate="pulse" onclick="productos('sce_transporte')">
                         <div class="col-sm-12 services">
                             <div class="row" style="margin-top: 45px">
                                 <div class="col-sm-2"></div>
@@ -82,7 +82,7 @@
             <div class="row">
                 <div class="col-sm-1"></div>
                 <div class="col-sm-10">
-                    <div class="col-sm-4 cursor animated" animate="pulse" onclick="productos('sce_almacen')"> 
+                    <div class="col-sm-4  cursor animated" animate="pulse" onclick="productos('sce_almacen')"> 
                         <div class="col-sm-12 services">
                             <div class="row" style="margin-top: 45px">
                                 <div class="col-sm-2"></div>
@@ -98,11 +98,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 cursor animated" animate="pulse" onclick="productos('sce_doctel')">
+                    <div class="col-sm-4   cursor animated" animate="pulse" onclick="productos('sce_doctel')">
                         <div class="col-sm-12 services">
                             <div class="row" style="margin-top: 45px">
                                 <div class="col-sm-2"></div>
-                                <div class="col-sm-10" id="servicios" style="margin-top: 10px"><span id="sce">DOCTEL</span><span id="scesistema"></span> 
+                                <div class="col-sm-10 doctel" id="servicios"><span id="sce">DOCTEL</span><span id="scesistema"></span> 
                                     <p id="productosSnt"><span style="font-weight: initial; font-family: MyriadPro-It;">Documento de Transmisión Electrónica</span></p>
                                 </div>
                             </div>
@@ -114,11 +114,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 cursor animated" animate="pulse" onclick="productos('productos_de_valor_agregado')">
+                    <div class="col-sm-4  cursor animated" animate="pulse" onclick="productos('productos_de_valor_agregado')">
                         <div class="col-sm-12 services">
                             <div class="row" style="margin-top: 45px" class="valoragregado">
                                 <div class="col-sm-1"></div>
-                                <div class="col-sm-10" id="servicios" style="margin-top: 15px; margin-left: 10px"><span id="sce" style="font-size: 30px; font-weight: bold;">PRODUCTOS DE <br>VALOR AGREADO</span>
+                                <div class="col-sm-10 valoragregadodiv" id="servicios"><span id="sce2">PRODUCTOS DE <br>VALOR AGREADO</span>
                                 </div>
                             </div>
                         </div>
@@ -140,9 +140,9 @@
     </div>
 </div>
 <div class="container-fluid mundi">
-    <div class="container" style="margin-top: -20px">
+    <div class="container conectamosDiv" >
         <div class="col-sm-12">
-            <p id="conectamos" style="font-family: myriadroman; font-size: 40px">Conectamos al mundo conectando personas</p>
+            <p id="conectamos">Conectamos al mundo conectando personas</p>
         </div>
         <div class="col-sm-12" style="text-align: center">
             <button class="btn btn-hero mundi btn-lg" role="button">Contáctanos</button>
@@ -196,12 +196,12 @@
             <div class="col-sm-8" style="margin-top: 35px">
                 <h1 style="font-family: MyriadPro-Bold; text-align: center">ÚLTIMAS NOTICIAS</h1>
                 <div class="row">
-                    <div class="col-sm-5"></div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-5 col-xs-4"></div>
+                    <div class="col-sm-2 col-xs-4">
                         <div class="red3">
                         </div>
                     </div>
-                    <div class="col-sm-5"></div>
+                    <div class="col-sm-5 col-xs-4"></div>
                 </div>
             </div>
             <div class="col-sm-2"></div>
