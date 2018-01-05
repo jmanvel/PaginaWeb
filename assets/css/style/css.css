@@ -967,6 +967,10 @@ input, button, select, textarea {
     .productosSnt{
         display: none;
     }
+    
+    .acercaTop{
+        margin-top: 25px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1005,7 +1009,7 @@ input, button, select, textarea {
         font-weight: bold;
         margin-top: 35px;
         text-align: center;
-        margin-top: 70px
+        margin-top: 50px
     }
 
     .navbar-inverse .navbar-toggle {
@@ -1136,6 +1140,10 @@ input, button, select, textarea {
         margin: 10px auto;
         width: 178px;
         height: 38px;
+    }
+    
+    .acercaTop{
+        margin-top: 0px;
     }
 }
 
