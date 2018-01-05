@@ -35,7 +35,7 @@
                                     <p id="productosSnt"><span style="font-weight: initial">Software de Comercio Exterior para</span><br> <span style="font-family: myriadroman; font-weight: bold">AGENCIAS DE CARGA<br> INTERNACIONAL</span></p>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
                         <div class="row">
                             <div class = "col-sm-12">
                                 <div class="orange">
