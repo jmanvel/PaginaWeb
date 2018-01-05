@@ -292,6 +292,11 @@ body:not(.glyphicon) {
     height: 20px;
 }
 
+.background_productos{
+    background: #e7e7e7; 
+    height: 175px
+}
+
 .whiteblue{
     background-color: #00a6d2;
     height: 20px;
@@ -324,6 +329,7 @@ body:not(.glyphicon) {
     /*height: 197px;*/
     height: 220px;
     margin-top: 45px;
+
 }
 
 #servicios{
@@ -1012,6 +1018,13 @@ input, button, select, textarea {
     .xs-vision {
         margin-top: 50px
     }
+    #sce {
+        font-size: 45px;
+    }
+    #scesistema {
+        font-family: myriadroman;
+        vertical-align: 10px;
+    }
     /*height: 50px; width: 103px;*/  
 }
 
@@ -1066,10 +1079,12 @@ input, button, select, textarea {
         margin-top: 40px;
     }
 
-    /*    .padding_noticias{
-            margin-bottom: 12px;
-        }*/
-    /**************************************************/
+}
+
+/*    .padding_noticias{
+        margin-bottom: 12px;
+    }*/
+/**************************************************/
 
 @media screen and (max-width: 1000px) {
     .logo_content {
@@ -1103,7 +1118,7 @@ input, button, select, textarea {
     .productosSnt{
         display: none;
     }
-    
+
     .acercaTop{
         margin-top: 25px;
     }
@@ -1273,7 +1288,7 @@ input, button, select, textarea {
         width: 178px;
         height: 38px;
     }
-    
+
     .acercaTop{
         margin-top: 0px;
     }
