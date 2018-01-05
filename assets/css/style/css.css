@@ -707,7 +707,17 @@ input, button, select, textarea {
 }
 
 .docte-adds {
+    background: #fff;
     height: 300px;
+    padding:  25px;
+}
+
+.docte-adds h3 {
+    color: #af2970;
+}
+
+.docte-adds p {
+    font-size: 17px;
 }
 
 /*************************************/
@@ -886,7 +896,7 @@ input, button, select, textarea {
 }
 
 .almacenboton{
-    background-color: #f8f8f8;
+    background-color: #fff;
     border-color: #00a6d2;
     color: #00a6d2;
     /*height: 38px;*/
