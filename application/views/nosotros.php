@@ -4,6 +4,7 @@
             <div style="background: url('/PaginaWeb/assets/img/fachada_retocada.jpg') no-repeat center center /cover; height: 500px;">
                 <div class="row">
                     <div class="col-sm-offset-5 col-sm-5">
+                        <!-- cambiar color de letra -->
                         <p style="margin: 100px 0 0 0; color: #fff;text-align: justify;font-family: myriadroman">
                             SINTAD es una organización que nació en el año 1998 y desde entonces se dedica exclusivamente a brindar soluciones integrales y efectivas para el desarrollo 
                             de todas las empresas involucradas al comercio internacional.
