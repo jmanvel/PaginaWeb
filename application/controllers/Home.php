@@ -18,7 +18,7 @@ class Home extends CI_Controller {
         $this->load->view("include/fecha_cambio");
         $this->load->view("include/banner");
         $this->load->view("index");
-        $this->load->view("include/clientes");
+//        $this->load->view("include/clientes");
         $this->load->view("include/footer");
     }
 

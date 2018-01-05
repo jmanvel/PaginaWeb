@@ -67,9 +67,50 @@ a:hover {
     left: auto;
     right: 0;
 }
+
 .open > .dropdown-menu {
     display: block;
 }
+
+.noticia-large {
+    background-color: #e1e1e1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 520px;   
+}
+
+.noticia-med {
+    background-color: #e1e1e1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 250px; 
+}
+
+.noticiasTexto{
+    color: #fff;
+    font-weight: bold; 
+    text-align: justify;
+}
+
+.noticiasParrafo{
+    color: #fff; 
+    text-align: right;
+}
+
+.noticiasParrafo2{
+    color: #fff;
+    text-align: justify; 
+}
+
+.tituloNoticias{
+    font-family: MyriadPro-Bold; 
+    text-align: center;
+}
+
 .dropdown-menu {
     background-color: #fff;
 }
@@ -121,10 +162,6 @@ a:hover {
     height: 55px;
 }
 
-.valoragregado{
-    margin-top: 55px
-}
-
 .doctel{
     margin-top: 10px
 }
@@ -149,7 +186,7 @@ a:hover {
 }
 
 #sce2 {
-    font-size: 55px;
+    font-size: 30px;
     margin-top: 25px
 }
 
@@ -200,7 +237,7 @@ a:hover {
 
 .sintad_puerta{
     background-image: url("/PaginaWeb/assets/img/sintad_puerta.jpg");
-    height: 517px;
+    /*height: 517px;*/
     font-family: "MyriadPro-Bold";
     background-size: cover;
 }
@@ -224,8 +261,11 @@ body:not(.glyphicon) {
 
 .whitenoticia {
     background-color: #fff;
-    height: 700px;
     width: 100%;
+}
+
+.logofooter{
+    margin-top: 50px;
 }
 
 .red {
@@ -235,7 +275,7 @@ body:not(.glyphicon) {
 }
 .footer{
     background-color: #211f20;
-    height: 315px;
+    min-height: 150px;
     width: 100%;
 }
 .orange{
@@ -270,7 +310,6 @@ body:not(.glyphicon) {
 .red2 {
     background-color: #e22f22;
     height: 13px;
-    width: 75%;
 }
 
 .red3 {
@@ -284,6 +323,7 @@ body:not(.glyphicon) {
     background: #fff;
     /*height: 197px;*/
     height: 220px;
+    margin-top: 45px;
 }
 
 #servicios{
@@ -292,8 +332,11 @@ body:not(.glyphicon) {
 }
 
 .valoragregadodiv {
-    margin-top: 15px; 
-    margin-left: 10px
+    margin-top: 45px; 
+    margin-left: 5px;
+    font-family: MyriadPro-Bold;
+    font-weight: bold;
+    text-align: center;
 }
 
 #sce {
@@ -330,6 +373,14 @@ body:not(.glyphicon) {
     margin-top: -25px
 }
 
+.acercaTextoTop{
+    margin-top: 40px;
+}
+
+.acercaTop{
+    margin-top: 100px;
+}
+
 .fecha{
     color: white;
     margin-top: 3px;
@@ -354,7 +405,6 @@ body:not(.glyphicon) {
 
 .navbar-right {
     float: right !important;
-    margin-right: -45px;
 }
 
 .btn {
@@ -557,6 +607,81 @@ body:not(.glyphicon) {
 }
 
 
+/* Table Arancel Partida */
+.table-arancel {
+    background-color: white;
+    padding: 20px;
+}
+
+.table-arancel > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #e22f22;
+}
+
+.table-arancel > tbody > tr > td {
+    border: none;
+}
+
+/* Paginacion */
+.pagination > li > a,
+.pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    color: #e22f22;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-left: -1px;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover {
+    color: #e22f22; 
+}
+
+.pagination > .active > a, 
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    z-index: 3;
+    color: #ffffff;
+    background-color: #e22f22;
+    border-color: #e22f22;
+    cursor: default;
+}
+
+input, button, select, textarea {
+    font-family: 'MyriadPro-Bold';
+}
+
+.v-resize {
+    resize: vertical;
+}
+
+.noticia-last {
+    width: 32% !important;
+}
+
+.noticia-otros {
+    width: 21% !important;
+}
+
+.row {
+    margin: 0;
+}
+
+.div-img {
+    padding: 0;
+}
+
+.masnoticias{
+    text-align: center;
+    margin-top: 30px; 
+    padding-bottom: 30px
+}
 /****************** PRODUCTOS **********************/
 .producto-title { 
     font-family: MyriadPro-Bold;
@@ -677,30 +802,35 @@ body:not(.glyphicon) {
 }
 
 .noticia-bottom-left {
+    padding: 10px;
     position: absolute;
     bottom: 8px;
     left: 16px;
 }
 
 .noticia-top-left {
+    padding: 10px;
     position: absolute;
     top: 8px;
     left: 16px;
 }
 
 .noticia-top-right {
+    padding: 10px;
     position: absolute;
     top: 8px;
     right: 16px;
 }
 
 .noticia-bottom-right {
+    padding: 10px;
     position: absolute;
     bottom: 8px;
     right: 16px;
 }
 
 .noticia-center {
+    padding: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -782,6 +912,10 @@ body:not(.glyphicon) {
     /*width: 277px;*/
 }
 
+.padding_noticias{
+    margin-bottom: 30px;
+}
+
 .box {
     height: 20px; 
     width: 20px;
@@ -808,6 +942,10 @@ body:not(.glyphicon) {
     /*text-align: center;*/
 }
 
+.margintext{
+    margin-top: 45px;
+}
+
 
 /********************************/
 /*          Media Queries       */
@@ -828,7 +966,7 @@ body:not(.glyphicon) {
     }
 }
 
-@media (max-width: 1399px) {
+@media screen and (max-width: 1399px) {
     .container {
         width: 1200px;
     }
@@ -836,33 +974,23 @@ body:not(.glyphicon) {
         /*float: left;*/
         margin: -5px;
     }
-
-    /*        .logo_content {
-                margin-top: -30px;
-                margin-left: 380px;
-            }*/
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .container {
         width: 100%;
-        font-size: 13px; 
+        font-size: 14px; 
     }
 
     .imglogo{
-        /*height: 50px; width: 103px;*/  
     }
     #options{
         margin: -4px;
     }
     .navbar-nav > li {
-        /*float: left;*/
-        margin: -4px;
+        margin: -9px;
+        margin-top: 5px;
     }
-    /*    .logo_content {
-            margin-top: -30px;
-            margin-left: 330px;
-        }*/
     .fecha {
         color: white;
         margin-top: 6px;
@@ -884,11 +1012,10 @@ body:not(.glyphicon) {
     .xs-vision {
         margin-top: 50px
     }
-    /**************************************************/
-
+    /*height: 50px; width: 103px;*/  
 }
 
-@media (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .logo_content {
         margin-top: -30px;
         margin-left: 280px;
@@ -911,14 +1038,51 @@ body:not(.glyphicon) {
     .nosotros-content {
         margin: 1% 0;
     }
+    .margintext{
+        margin-top: 30px
+    }
+
+    #sce {
+        font-size: 45px
+    }
+
+    h1, .h1 {
+        font-size: 23px;
+    }
+
+    .valoragregadodiv {
+        margin-top: 25px; 
+        margin-left: 5px;
+        font-family: MyriadPro-Bold;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .acercaTextoTop{
+        margin-top: 10px;
+    }
+
+    .acercaTop{
+        margin-top: 40px;
+    }
+
+    /*    .padding_noticias{
+            margin-bottom: 12px;
+        }*/
     /**************************************************/
 
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+        font-size: 10px; 
+    }
+
     .logo_content {
-        margin-top: -18px;
-        margin-left: 0px;
+        margin-top: -30px;
+        margin-left: 230px;
     }
 
     #texto{
@@ -959,10 +1123,6 @@ body:not(.glyphicon) {
         width: 100%;
     }
 
-    .navbar-inverse .navbar-nav > li > a {
-        color: #fff;
-    }
-
     .navbar-inverse .navbar-toggle:hover,
     .navbar-inverse .navbar-toggle:focus {
         background-color: #211f20;
@@ -970,7 +1130,6 @@ body:not(.glyphicon) {
 
     .responsivewhithe {
         background-color: #fff;
-        height: 1080px;
         width: 100%;
     }
 
@@ -1015,16 +1174,6 @@ body:not(.glyphicon) {
         display: none;
     }
 
-    .navbar-inverse .navbar-nav > li > a:hover,
-    .navbar-inverse .navbar-nav > li > a:focus {
-        color: #fff;
-    }
-    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-        background: red none repeat scroll 0 0;
-        border-color: #fff;
-        height: 350px;
-    }
-
     #productosSnt{
         display: none;
     }
@@ -1062,9 +1211,39 @@ body:not(.glyphicon) {
         cursor: pointer;
         margin: 65px 5px 5px;
     }
+    #footer_productos{
+        display: none;
+    }
+
+    #productosSnt{
+        display: none;
+    }
+    .productosSnt{
+        display: none;
+    }
+
+    body:not(.glyphicon) {
+        font-family: "myriadroman";
+        font-size: 10px; 
+        color: #5f5f5f;
+    }
+
+    .btn.btn-hero, .btn.btn-hero:hover, .btn.btn-hero:focus {
+        color: #f5f5f5;
+        background-color: #e22f22;
+        border-color: #e22f22;
+        outline: none;
+        margin: 10px auto;
+        width: 178px;
+        height: 38px;
+    }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
+    .logo_content {
+        margin-top: -25px;
+        margin-left: 0px;
+    }
     h4, .h4 {
         font-size: 12px;
     }
@@ -1110,8 +1289,8 @@ body:not(.glyphicon) {
     }
 
     .valoragregadodiv {
-        margin-left: 0;
-        margin-top: 15px;
+        margin-top: 25px; 
+        margin-left: 5px
     }
     .doctel{
         margin-top: 70px;
@@ -1122,10 +1301,10 @@ body:not(.glyphicon) {
         margin-top: 70px;
     }
 
-    #sce {
-        font-size: 40px;
-        margin-top: 25px;
-    }
+    /*    #sce {
+            font-size: 40px;
+            margin-top: 25px;
+        }*/
 
     #sce2 {
         font-size: 30px;
@@ -1139,73 +1318,3 @@ body:not(.glyphicon) {
 .nowrap-td td {
     white-space: nowrap;
 } 
-
-/* Table Arancel Partida */
-.table-arancel {
-    background-color: white;
-    padding: 20px;
-}
-
-.table-arancel > thead > tr > th {
-    vertical-align: bottom;
-    border-bottom: 2px solid #e22f22;
-}
-
-.table-arancel > tbody > tr > td {
-    border: none;
-}
-
-/* Paginacion */
-.pagination > li > a,
-.pagination > li > span {
-    position: relative;
-    float: left;
-    padding: 6px 12px;
-    line-height: 1.42857143;
-    text-decoration: none;
-    color: #e22f22;
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    margin-left: -1px;
-}
-.pagination > li > a:hover,
-.pagination > li > span:hover {
-    color: #e22f22; 
-}
-
-.pagination > .active > a, 
-.pagination > .active > span,
-.pagination > .active > a:hover,
-.pagination > .active > span:hover,
-.pagination > .active > a:focus,
-.pagination > .active > span:focus {
-    z-index: 3;
-    color: #ffffff;
-    background-color: #e22f22;
-    border-color: #e22f22;
-    cursor: default;
-}
-
-input, button, select, textarea {
-    font-family: 'MyriadPro-Bold';
-}
-
-.v-resize {
-    resize: vertical;
-}
-
-
-.view-pdf{
-    min-height: 1000px;
-    max-width: 900px;
-    border: 1px solid #bfbfbf;
-    margin: 20px 0;
-}
-
-.row {
-    margin: 0;
-}
-
-.div-img {
-    padding: 0; 
-}
