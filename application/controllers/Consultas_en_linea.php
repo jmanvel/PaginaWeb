@@ -88,6 +88,14 @@ class Consultas_en_linea extends CI_Controller {
         $this->load->view("include/footer");
     }
 
+    public function informes_aduaneros() {
+        $this->load->view("include/head");
+        $this->load->view("include/nav");
+        $this->load->view("include/fecha_cambio");
+        $this->load->view("consultas/informes_aduaneros");
+        $this->load->view("include/footer");
+    }
+
     public function ley_lga() {
         $data["titulo"] = "LEY GRAL. DE ADUANAS";
         $data["archivo"] = "LeyGralDeAduana";

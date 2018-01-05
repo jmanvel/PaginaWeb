@@ -3,7 +3,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                             <span class="sr-only">Toggle navigation</span>
@@ -11,13 +10,14 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="<?php echo base_url(); ?>"><div class="logo_content">
-                                <img src="<?php echo base_url(); ?>assets/img/logo/logo.jpg" alt="logo" class="imglogo"/>
+                        <a class="navbar-brand" href="<?php echo base_url(); ?>">
+                            <div class="logo_content">
+                                <img src="<?php echo base_url(); ?>assets/img/logo/logo.jpg" alt="logo" class="img-responsive imglogo"/>
                             </div>
                         </a>
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul id="options" class="nav navbar-nav navbar-right animated" animate="bounceInLeft"> 
+                        <ul id="options" class="nav navbar-nav navbar-right animated" animate="bounceInLeft">
                             <li class="dropdown"> 
                                 <a href="<?php echo base_url(); ?>productos">PRODUCTOS<b class="caret"> </b></a> 
                                 <ul class="dropdown-menu">  
@@ -31,7 +31,8 @@
                                             </li>
                                             <li class="submenu">
                                                 <a href="<?php echo base_url(); ?>productos/sce_transporte">SCE - TRANSPORTE</a>
-                                            </li></div>
+                                            </li>
+                                        </div>
                                         <div class="col-sm-7">
                                             <li class="submenu">
                                                 <a href="<?php echo base_url(); ?>productos/sce_almacen">SCE - ALMACEN</a>
@@ -133,7 +134,7 @@
                                 <a href="#">|</a>
                             </li>
                         </ul>
-                        <ul id="searchOption" class="nav navbar-nav pull-right" style="display: none">
+                        <ul id="searchOption" class="nav navbar-nav navbar-right" style="display: none">
                             <li>
                                 <form action="search" method="POST">
                                     <div class="col-sm-12"> 
@@ -154,8 +155,8 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div>  
             </div>
         </div>
-    </div><!-- /.container-fluid -->
+    </div> 
 </nav>

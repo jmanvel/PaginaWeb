@@ -7,7 +7,7 @@
                         Miercoles 22 Noviembre 2017
                     </div>
                     <div class="cambio">
-                        Tipo de Cambio US$ Venta: 3.2380 / Compra: 3.2350
+                        Tipo de Cambio US$ Venta: 3.238 / Compra: 3.235
                     </div>
                 </div>
             </div>

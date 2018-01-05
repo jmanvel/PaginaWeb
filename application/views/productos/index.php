@@ -43,6 +43,7 @@
                         <span id="scesistema">CARGA</span> 
                     </div>
                 </div>
+
             </div>
         </div>
         <div class="col-sm-4" style="margin-top: 30px">

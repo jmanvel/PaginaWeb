@@ -155,51 +155,64 @@
 </div>
 <div class="container-fluid whitenoticia responsivewhithe">
     <div class="container">
+        <div class="white"></div>
         <div class="row">
-            <div class="col-sm-12">
-                <div class="row" style="margin-bottom: 50px">
-                    <div class="col-sm-2"></div>
-                    <div class="col-sm-8" style="margin-top: 35px">
-                        <h1 style="font-family: MyriadPro-Bold; text-align: center">ÚLTIMAS NOTICIAS</h1>
-                        <div class="row">
-                            <div class="col-sm-5 col-xs-4"></div>
-                            <div class="col-sm-2 col-xs-4">
-                                <div class="red3">
-                                </div>
-                            </div>
-                            <div class="col-sm-5 col-xs-4"></div>
-                        </div>
-                    </div>
-                    <div class="col-sm-2"></div>
-                </div>
+            <div class="col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-offset-2 col-xs-8">
+                <h1 class="noticia-title  text-center">ÚLTIMAS NOTICIAS</h1>
+            </div>
+            <div class="col-lg-offset-5 col-lg-2 col-md-offset-5 col-md-2 col-sm-offset-4 col-sm-4 col-xs-offset-4 col-xs-4">
+                <div class="red3"></div>
+            </div>
+        </div>
+        <div class="white"></div>
+        <div class="row">
+            <div class="col-lg-offset-2 col-lg-4 col-md-offset-1 col-md-5 col-sm-offset-1 col-sm-5">
                 <div class="row">
-                    <div class="col-sm-2 col-md-2 col-lg-2 hidden-xs"></div>
-                    <div class="col-sm-4" id="noticia1">
-                        <h3 class="noticiasTexto">lorem ipsum dolor sit amet consectetur adipiscing elit</h3>
-                        <p class="noticiasParrafo">sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br>
-                        </p>
-                        <p style="text-align: right;"><a href="" style="color: #fff; font-weight: bold">Ver más</a></p> 
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="noticia-div">
+                            <img src="/PaginaWeb/assets/img/noticia3.jpg" class="noticia-large" alt="Noticia">
+                            <div class="noticia-white noticia-top-right">
+                                <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit</h3>
+                                <p>
+                                    Sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                </p>
+                            </div> 
+                        </div> 
                     </div>
-                    <div class="col-sm-4">
-                        <div class="row">
-                            <div class="col-lg-12" id="noticia2">
-                                <h3 class="noticiasTexto">lorem ipsum dolor sit amet</h3>
-                                <p class="noticiasParrafo2">sed eiusmod tempor incidunt ut labore et dolore magna aliqua.<a href="" style="color: #fff;font-weight: bold"> Ver más</a></p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12" id="noticia3">
-                                <h3 class="noticiasTexto">lorem ipsum dolor sit amet</h3>
-                                <p class="noticiasParrafo2">sed eiusmod tempor incidunt ut labore et dolore magna aliqua.<a href="" style="color: #fff;font-weight: bold"> Ver más</a></p>
-                            </div>
-                        </div>
+                </div> 
+            </div>
+            <div class="col-lg-4 col-md-5 col-sm-5">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="noticia-div">
+                            <img src="/PaginaWeb/assets/img/noticia1.jpg" class="noticia-med" alt="Noticia">
+                            <div class="noticia-white noticia-bottom-left">
+                                <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit</h3>
+                                <p>
+                                    Sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                </p>
+                            </div> 
+                        </div> 
                     </div>
-                    <div class="col-sm-2 col-md-2 col-lg-2 hidden-xs"></div>
-                </div>  
-                <div class="row masnoticias">
-                    <button class="btn btn-hero btn-lg noticias" role="button">MÁS NOTICIAS</button>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="noticia-div">
+                            <img src="/PaginaWeb/assets/img/noticia2.jpg" class="noticia-med" alt="Noticia">
+                            <div class="noticia-white noticia-bottom-left">
+                                <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit</h3>
+                                <p>
+                                    Sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                </p>
+                            </div> 
+                        </div> 
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="white"></div>
+        <div class="row">
+            <div class="col-lg-12 masnoticias">
+                <button class="btn btn-hero btn-lg noticias text-center" role="button">MÁS NOTICIAS</button>
+            </div> 
         </div>
     </div>
 </div>

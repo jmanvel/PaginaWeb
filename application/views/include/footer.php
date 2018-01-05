@@ -1,4 +1,4 @@
-<div class="container-fluid footer">
+<div class="container-fluid footer" style="">
     <div class="container">
         <div class="col-sm-5 col-xs-5">
             <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/img/logo/logogris.png" alt="logo" class="logofooter"/></a>
