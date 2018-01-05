@@ -38,114 +38,87 @@
             </div> 
         </div>
         <div class="gray"></div>
-        <div class="row"> 
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 bg-white" style="padding: 50px;">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <div class="docte-adds">
-                    <h3 style="color: #e5691f"> <strong>SCE CARGA </strong>- Desglom&oacute;vil</h3><br>
-                    <p class="text-justify" style="font-size: 17px">Desglose o desconsolide en cualquier momento su mercaderia desde cualquier dispositivo movil. SINTAD pone a disposicion de los agentes de carga internacional, 
+                    <h3> <strong>SCE CARGA </strong>- Desglom&oacute;vil</h3><br>
+                    <p class="text-justify">Desglose o desconsolide en cualquier momento su mercaderia desde cualquier dispositivo movil. SINTAD pone a disposicion de los agentes de carga internacional, 
                         nuestro aplicativo DESGLOM&Oacute;VIL que le permite numerar, rectificar o aular en L&iacute;nea el manifesto de su carga desde cualquier dispositivo 
                         m&oacute;vil con acceso a internet, desde cualquier parte del mundo y en cualquier momento.
                     </p> 
                 </div> 
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  bg-white" style="padding: 50px;">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <div class="docte-adds">
-                    <h3 style="color: #e5691f"> <strong>SCE CARGA </strong>- Tracking Online</h3><br>
-                    <p class="text-justify" style="font-size: 17px;">Aplicativo que se incorpora en la web de nuestro cliente para que su cliente (Importador o Exportador) pueda acceder al estado de los procesos del embarque, 
+                    <h3> <strong>SCE CARGA </strong>- Tracking Online</h3><br>
+                    <p class="text-justify">Aplicativo que se incorpora en la web de nuestro cliente para que su cliente (Importador o Exportador) pueda acceder al estado de los procesos del embarque, 
                         el seguimiento de la traves&iacute;a de la mercanc&iacute;a, nacionalizaci&oacute;n en el puerto destino, transporte local y gesti&oacute;n en el almac&eacute;n.
                     </p> 
                 </div> 
             </div> 
         </div>
-
-    </div>
-    <div class="container-fluid" style="background: #f4f4f4; margin-top: 65px;" >
-        <div class="col-sm-5">
-            <img src="<?php echo base_url(); ?>assets/img/carga.jpg" style="margin-left: -15px; width: 100%">
-        </div>
-        <div class="container">
-            <div class="col-sm-6" style="text-align: justify;margin-top: 120px; margin-left: 10px">
-                <div class="col-sm-12" style="margin-left: 2%; max-width: 99%">
-                    <h2 style="color: #00a6d2"> <strong>SCE </strong>- Provisiones</h2>
-                    <p style="font-size: 17px">Sistema orientado a la gesti&oacute;n, provisi&oacute;n y administraci&oacute;n del registro de ventas originando consecuentemente las cuentas por cobrar clientes;
-                        adem&aacute;s de la transferencia de los comprobantes de pago electr&oacute;nicos al ente recaudador (Sunat). Incluye el aplicativo SCE-Doctel; emisi&oacute;n 
-                        de documentos electr&oacute;nicos desarrollada con la &uacute;ltima normativa legal exigida por Sunat.
-                    </p>
-                    <br>
-                    <p style="font-size: 17px">As&iacute; mismo incluye la gesti&oacute;n, provisi&oacute;n del registro de compras originando consecuentemente las cuentas por pagar a proveedores; adem&aacute;s
-                        de la transparencia electr&oacute;nica. </p>
-                    <br>
-                    <button class="btn  btn-lg almacenboton" role="button">Mas sobre SCE-Doctel</button>
-                    <h2 style="color: #00a6d2; margin-top: 80px"> <strong>SCE </strong>- Bancos</h2>
-                    <p style="font-size: 17px">Sistema orientado a la administraci&oacute;n  control de ingresos y egresos de divisas en todas las cuentas aperturadas en las instituciones financieras, generando 
-                        consecuentemente la cancelaci&oacute;n de la provisi&oacute;n del registro de compras, ventas y sueldos que originan a la vez los estados de cuentas corrientes bancos, clientes, proveedores, empleados, etc.</p>
-                </div>
-            </div>
-        </div>
+        <div class="gray"></div>
     </div>
 </div>
-<div class="container-fluid" style="background: #fff; margin-top: 80px;">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-10">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="col-sm-5">
-                            <h2 style="color: #00a6d2; margin-left:12px"><strong>SCE </strong> - Sueldos</h2>
-                        </div>
-                        <div class="col-sm-7">
-                            <p style="text-align: justify; font-size: 17px">Sistema orientado a la gesti&oacute;n y provisi&oacute;n de la planilla de sueldos, control de pr&eacute;stamos 
-                                vacaciones, gratificaciones, CTS, liquidaci&oacute;n de beneficios sociales, utilidades, etc.; adem&aacute;s de la transparencia electr&oacute;nica 
-                                de los libros oficiales al ente recaudador (Sunat y AFPs). 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-1"></div>
-        </div>
-        <div class="row" style="margin-top: 80px;">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-10">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="col-sm-5">
-                            <h2 style="color: #00a6d2; margin-left:12px"><strong>SCE </strong> - Contabilidad</h2>
-                        </div>
-                        <div class="col-sm-7">
-                            <p style="text-align: justify; font-size: 17px">Sistema orientado a la centralizac&oacute;n de los libros de ventas, compras, sueldos y bancos que llevar&iacute;a
-                                a obtener los libros de diario, mayor, balance general, estado de ganacias y p&eacute;rdidas por funci&oacute;n y naturaleza, ratios financieros, etc.; adem&aacute;s
-                                de la transferencia de los libros contables electr&oacute;nicos a la entidad supervisora del estado (Sunat).. 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-1"></div>
-        </div>
+<div class="container-fluid bg-white">
+    <div class="col-sm-5" style="padding-left: 0">
+        <img src="<?php echo base_url(); ?>assets/img/carga2.jpg" class="img-responsive">
     </div>
+    <div class="col-sm-5">
+        <div class="text-justify" style="padding-top: 80px">
+            <h2 style="color: #af2970"> <strong>SCE </strong>- Provisiones</h2>
+            <p style="font-size: 17px">
+                Sistema orientado a la gesti&oacute;n, provisi&oacute;n y administraci&oacute;n del registro de ventas originando consecuentemente las cuentas por cobrar clientes;
+                adem&aacute;s de la transferencia de los comprobantes de pago electr&oacute;nicos al ente recaudador (Sunat). Incluye el aplicativo SCE-Doctel; emisi&oacute;n 
+                de documentos electr&oacute;nicos desarrollada con la &uacute;ltima normativa legal exigida por Sunat.
+            </p>
+            <br>
+            <p style="font-size: 17px">
+                As&iacute; mismo incluye la gesti&oacute;n, provisi&oacute;n del registro de compras originando consecuentemente las cuentas por pagar a proveedores; adem&aacute;s
+                de la transparencia electr&oacute;nica. </p>
+            <br> 
+        </div>
+        <button class="btn  btn-lg almacenboton" role="button">Mas sobre SCE-Doctel</button> 
+    </div> 
 </div>
-<div class="container-fluid" style="background: #5f5f5f; margin-top: 80px;">
+<div class="container-fluid bg-gray">
     <div class="container">
+        <div class="gray"></div>
         <div class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-10" style="background: #1d1d1d;">
-                <div class="col-sm-1"></div>
-                <div class="col-sm-10">
-                    <div class="overlay_wrapper" style="margin-left: 20px">
-                        <div class="overlay_fade">
-                            <a href="videos/video-03.html?lightbox[width]=610&amp;lightbox[height]=360&amp;lightbox[modal]=true" class="lightbox"><div class="overlay_zoom zoom_white"></div>
-                                <img src="<?php echo base_url(); ?>assets/img/video-04.jpg" height="100%" style="alignment-adjust: central">
-                            </a>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <h2 style="color: #af2970;"><strong>Encuentra </strong> - DOCTEL en</h2>
+                <p class="text-justify hidden-sm hidden-xs" style="font-size: 17px">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="bg-white" style="padding: 70px; border-bottom: 15px solid #e5691f;">
+                            <h3><strong>SCE</strong> carga</h3>
                         </div>
-
-                        <!--<a href="#" class="pdf">MAYOR INFORMACIÓN EN ARCHIVO ADJUNTO</a>-->
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="bg-white" style="padding: 70px; border-bottom: 15px solid #0177b4;">
+                            <h3><strong>SCE</strong> carga</h3>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-1"></div>
+                <div class="gray"></div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="bg-white" style="padding: 70px; border-bottom: 15px solid #79b93d;">
+                            <h3><strong>SCE</strong> carga</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="bg-white" style="padding: 70px; border-bottom: 15px solid #00a6d2;">
+                            <h3><strong>SCE</strong> carga</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-1"></div>
         </div>
+        <div class="gray"></div>
     </div>
 </div>
